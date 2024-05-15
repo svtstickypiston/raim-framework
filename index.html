@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAIM Initiative</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">RAIM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#importance">Motivation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#action">Take Action</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <!-- Hero Section -->
+        <section id="hero" class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">Responsible AI Music</h1>
+                <p class="lead">Ensuring the Future of Music Creation aligns with Trustworthy AI Principles.</p>
+                <!-- <a class="btn btn-primary btn-lg" href="#importance" role="button">Learn More</a> -->
+            </div>
+        </section>
+
+        <!-- Importance Section -->
+        <section id="importance" class="container my-4">
+            <h2>Why It Matters</h2>
+            <p>Generative AI is radically changing the creative arts, transforming the way we create and interact with artworks. While offering unprecedented opportunities for artistic expression and commercialisation, this technology also raises ethical, societal, and legal concerns. Key among these are the potential displacement of human creativity, copyright infringement stemming from vast training datasets, and the lack of transparency, explainability, and fairness mechanisms. As generative systems become pervasive in this domain, responsible design is crucial.</p>
+            <p>Whilst previous work has tackled isolated aspects of generative systems (e.g., transparency, evaluation, data), this initiative takes a holistic approach, grounding these efforts within the Ethics Guidelines for Trustworthy Artificial Intelligence produced by the High-Level Expert Group on AI appointed by the European Commission - a framework for designing responsible AI systems across 7 macro requirements. Focusing on generative music AI, we illustrate how these requirements can be contextualised for the field, addressing trustworthiness across multiple dimensions and integrating insights from the existing literature.</p>
+            <p>Our initiative provides a foundation for designing and evaluating responsible music generation systems, calling for collaboration among AI experts, ethicists, legal scholars, and artists.</p>
+        </section>
+
+        <!-- Importance Section -->
+        <section id="tai" class="container my-4">
+            <h2>What is Trustworthy AI?</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                <p>Trustworthy AI encompasses artificial intelligence systems designed and implemented to adhere to fundamental ethical principles, technical robustness, and legal compliance.
+                A referential work ... <a href="https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1">Ethics Guidelines for Trustworthy Artificial Intelligence</a>, a document prepared by the <a href="https://digital-strategy.ec.europa.eu/en/policies/expert-group-ai">High-Level Expert Group on Artificial Intelligence</a>, an independent expert group appointed by the European Commission in 2018.</p>
+                <p>The guidelines include 7 key requirements that AI systems should meet to be trustworthy: 1) human agency and oversight; 2) robustness and safety; 3) privacy and data governance; 4) transparency; 5) diversity, non-discrimination, fairness; 6) societal and environmental well-being; 7) accountability. These requirements are of general applicability and relate to different stakeholders in the systems' life cycle (developers, deployers, end-users, broader society). Following a piloting process with 350 stakeholders, the guidelines lead to the creation of the <a href="https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment">Assessment list for Trustworthy AI (ALTAI)</a>.</p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="assets/eutai_diag.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="container my-4">
+            <h2>Guiding features for Responsible AI Music</h2>
+            <p>We contextualise the Trustworthy AI framework to the domain of Generative AI Music, by defining responsible features that can drive the design and the evaluation of generative systems, in accordance with the literature. For this pursuit, a distinction needs to be made between <span class="font-italic">music model</span> and <span class="font-italic">generative music system</span>.
+            <ul>
+                <li>
+                A music <span class="font-weight-bold">model</span> can be defined as an algorithmic procedure that either encodes a set of rules explicitly, or learns them from the data and the task it is provided. These rules, e.g., a probability distribution for predicting the next note or chord in a piece, or a set of logical statements, can be used to generate, complete, or manipulate music.
+                </li>
+                <li>
+                A generative music <span class="font-weight-bold">system</span> encompasses the whole computational infrastructure built on top of a music model to enable users to interact with the model and make use of its outputs, without the need of its inner workings. This includes both technical and the regulatory aspects, such as the interface, the logic which abstract or hide certain parameters of the model, the way the model's predictions are consumed; but also the data management system, the legal framework regulating the exchange of data, etc.
+                </li>
+            </ul>
+
+            Typically, a generative system is implemented in such a way as to conveniently wrap the functionalities of a particular model, meaning that a model can provide the computational backbone to various generative systems (e.g., plugins for music editors, production environments, smart instruments).
+            For example, <a href="https://magenta.tensorflow.org/music-vae">MusicVAE</a> has been reused in different applications, such as Beat Blender, Melody Mixer, Latent Loops, and is also available through <a href="https://magenta.tensorflow.org/studio/">Magenta Studio</a>, a plugin for the DAW Ableton Live.
+            The distinction between model and system is a peculiar aspect to Generative AI, as their design and implementation involve different stakeholders, such as machine learning engineers and mathematicians for the former, and UX designers, software developers, data engineers for the latter, but also share music experts as a common denominator driving the evaluation efforts.
+            <p>
+
+            <p>Introduction to the 45 features following the EU Trustworthy AI guidelines tailored for Generative Music AI.</p>
+            <img src="assets/feature_diagram.png" class="img-fluid" alt="Overview of features">
+        </section>
+
+        <!-- Start Card Group 1 -->
+        <section id="features-1" class="container my-4">
+            <h3>Pillar 1: Human Agency and Oversight</h3>
+            <p>Central to the design of trustworthy systems is the capacity of individuals to understand and meaningfully influence the actions of AI systems (<em>human agency</em>) while monitoring and interacting their behaviour to operate responsibly and align with human values and preferences (<em>human oversight</em>).</p>
+
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="assets/header_1.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Personalisation</h5>
+                  <p class="card-text">The system can reuse the musical repertoire of the user to personalise the style of the generation.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 1-01</small>
+                  <small class="text-muted">Agency</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_1.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Creative feedback (HITL)</h5>
+                  <p class="card-text">The system can iteratively refine or improve the generation based on the feedback provided by the user throughout the creative process.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 1-02</small>
+                  <small class="text-muted">Oversight</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_1.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Controllability (conditioning)</h5>
+                  <p class="card-text">To steer the generations depending on the user's preferences, the system provides a rich variety of modalities including language, melodic, harmonic, rhythmic, and emotional control of the generation.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 1-03</small>
+                  <small class="text-muted">Oversight</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_1.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Red button</h5>
+                  <p class="card-text">If the system is generating and playing/displaying music that is either unpleasant, disturbing or contains lyrics with offensive language, the user can always halt the generation process at any time.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 1-04</small>
+                  <small class="text-muted">Oversight</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_1.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Safety disclaimer</h5>
+                  <p class="card-text">The system always advises the user whenever it can generate music that may be deemed dangerous or offensive to some categories of users (e.g. offensive language in lyrics).</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 1-05</small>
+                  <small class="text-muted">Agency</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_1.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Deception avoidance</h5>
+                  <p class="card-text">The system does not show any deceptive behaviour related to the copy- right and ownership of the generated material. For instance, the system never tries to claim ownership or novelty of the generations when music is possibly plagiarised.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 1-06</small>
+                  <small class="text-muted">Agency</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_1.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Artist involvement</h5>
+                  <p class="card-text">The system has been designed with the active involvement of creative professionals throughout its development cycle.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 1-07</small>
+                  <small class="text-muted">Oversight</small>
+                </div>
+              </div>
+
+            </div>
+            <!-- End Card Group 1 -->
+        </section>
+
+        <!-- Start Card Group 2 -->
+        <section id="features-1" class="container my-4">
+            <h3>Pillar 2: Robustness & Safety</h3>
+            <p>This requirement focuses on accuracy, reliability and reproducibility, resilience to attack, security, and fallback plans.</p>
+
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Music leakage</h5>
+                  <p class="card-text">The system does not allow for the full or partial reconstruction of the music material used as training data unless this is explicitly acknowledged and allowed by the copyright holders of the music data.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-01</small>
+                  <small class="text-muted">Resilience</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Generation fallback</h5>
+                  <p class="card-text">If the system needs to generate music continuously over time, and the content is considered offensive at some point, the system can switch to a simpler generative strategy (e.g. a rule-based mode).</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-02</small>
+                  <small class="text-muted">Fallback plan</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Model evaluation</h5>
+                  <p class="card-text">The evaluation of the model/system is consistent with other frameworks and benchmarks for music generation.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-03</small>
+                  <small class="text-muted">Accuracy</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Model evaluation</h5>
+                  <p class="card-text">The system/model provides a comprehensive evaluation of the musical properties of its generations.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-04</small>
+                  <small class="text-muted">Accuracy</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Expert evaluation</h5>
+                  <p class="card-text">The evaluation of the system/model involves creative professionals or music experts.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-05</small>
+                  <small class="text-muted">Accuracy</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Model availability</h5>
+                  <p class="card-text">The computational model behind the system is fully publicly available and includes pre-trained checkpoints.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-06</small>
+                  <small class="text-muted">Reproducibility</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Training data availability</h5>
+                  <p class="card-text">The training material on which the system relies is fully publicly accessible.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-07</small>
+                  <small class="text-muted">Reproducibility</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Prompt-to-Gen</h5>
+                  <p class="card-text">If sample generations are released, the model can be seeded and prompted to recreate the same musical content.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-08</small>
+                  <small class="text-muted">Reproducibility</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Prompt leakage</h5>
+                  <p class="card-text">The system neither distributes nor leaks any personal data used by users to prompt the generation of music.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 2-09</small>
+                  <small class="text-muted">Privacy</small>
+                </div>
+              </div>
+
+            </div>
+            <!-- End Card Group 2 -->
+        </section>
+
+        <!-- Start Card Group 3 -->
+        <section id="features-1" class="container my-4">
+            <h3>Pillar 3: Privacy and Data Governance</h3>
+            <p>Central to the goal of preventing unintended harm and achieving trust with users, data governance must encompass the quality and integrity of the data utilises, its pertinence within the intended domain of AI deployment, strict access protocols, and mechanisms to safeguard privacy.</p>
+
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="assets/header_3.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Training metadata integrity</h5>
+                  <p class="card-text">The model advises if it is not trained on music data which is fully and correctly attributed to the right authors.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 3-01</small>
+                  <small class="text-muted">Data quality</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_3.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Safety of training data</h5>
+                  <p class="card-text">The model advises if it is trained on music data that can be deemed offensive or socially harmful (e.g. lyrics).</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 3-02</small>
+                  <small class="text-muted">Data quality</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_3.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Prompt governance</h5>
+                  <p class="card-text">If the system stores data collected from users through the generation process (e.g., prompts, feedback, music), access to it is fully regulated.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 3-03</small>
+                  <small class="text-muted">Access to data</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_3.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Generative reuse of music data</h5>
+                  <p class="card-text">If the system is generating and playing/displaying music that is either unpleasant, disturbing or contains lyrics with offensive language, the user can always halt the generation process at any time.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 3-04</small>
+                  <small class="text-muted">Copyright & Licensing</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_3.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Copyright and licensing of generations</h5>
+                  <p class="card-text">The system always advises the user whenever it can generate music that may be deemed dangerous or offensive to some categories of users (e.g. offensive language in lyrics).</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 3-05</small>
+                  <small class="text-muted">Copyright & Licensing</small>
+                </div>
+              </div>
+            </div>
+            <!-- End Card Group 3 -->
+        </section>
+
+        <!-- Start Card Group 4 -->
+        <section id="features-4" class="container my-4">
+            <h3>Pillar 4: Transparency</h3>
+            <p>This requirement is closely linked with the principle of explainability and encompasses transparency of elements relevant to generative systems, e.g., the data, the system, and the business model. Hereafter, we outline the main elements influencing the transparency of these systems.</p>
+
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">System documentation</h5>
+                  <p class="card-text">The system's design is well-documented throughout its development cycle, including instructions for model implementation, training, and data generation.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-01</small>
+                  <small class="text-muted">Traceability</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Evaluation documentation</h5>
+                  <p class="card-text">The evaluation of the model/system is well-documented and reproducible, promoting consistency and transparency in future evaluations (e.g., of other music models).</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-02</small>
+                  <small class="text-muted">Traceability</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Artefact watermarking</h5>
+                  <p class="card-text">The system automatically embeds a watermark into every generation to remark on their artificial nature.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-03</small>
+                  <small class="text-muted">Traceability</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Generation explainability</h5>
+                  <p class="card-text">The system can explain how the generations are created in a way that is understandable to its target users.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-04</small>
+                  <small class="text-muted">Explainability</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Data explainability</h5>
+                  <p class="card-text">The system can relate each generation to the training material that contributed to its creation process (e.g. a pattern, motive, or sample).</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-05</small>
+                  <small class="text-muted">Explainability</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Artificial awareness</h5>
+                  <p class="card-text">Users interacting with the system during the generation process are al- ways aware of its artificial nature.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-06</small>
+                  <small class="text-muted">Communication</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Benefits</h5>
+                  <p class="card-text">The benefits of using the particular system, compared to other solutions, are communicated to users prior to its use.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-07</small>
+                  <small class="text-muted">Communication</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Limitations</h5>
+                  <p class="card-text">The technical limitations and the potential risks of the system are communicated to users prior to its use.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-08</small>
+                  <small class="text-muted">Communication</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="assets/header_4.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Instructional material</h5>
+                  <p class="card-text">Appropriate instructional material and disclaimers are provided to users on how to adequately use the system.</p>
+                </div>
+                <div class="card-footer d-flex w-100 justify-content-between">
+                  <small class="text-muted">Feature 4-09</small>
+                  <small class="text-muted">Communication</small>
+                </div>
+              </div>
+
+            </div>
+            <!-- End Card Group 4 -->
+        </section>
+
+
+        <!-- Call to Action Section -->
+        <section id="action" class="container my-4">
+            <h2>Join the Initiative</h2>
+            <p>Be part of the responsible use of AI in music. TODO: contact us (google group).</p>
+            <a class="btn btn-success" href="#">Mailing list TODO</a>
+            <a class="btn btn-success" href="#">Take part to our study</a>
+            <a class="btn btn-success" href="#">Support this initiative</a>
+        </section>
+    </main>
+
+    <footer class="text-muted py-4 bg-light">
+        <div class="container">
+            <p>Responsible AI Music, An Open Initiative © 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/libs/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

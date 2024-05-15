@@ -1,0 +1,26 @@
+body {
+    padding-top: 20px; /* Padding to ensure content isn't hidden behind the fixed navbar. */
+}
+
+h3 {
+    color: #007bff; /* Bootstrap primary color for consistency */
+}
+
+#hero {
+    background: url('assets/background_a.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    background: #f8f9fa;
+    color: #6c757d;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5rem;
+}
