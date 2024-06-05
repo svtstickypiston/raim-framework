@@ -3,14 +3,13 @@ h3 {
 }
 
 #hero {
-    background: url('assets/background_a.jpg') no-repeat center center;
-    background-position: 0 -56em; /* Adjust vertical offset as needed */
+    background: url('assets/background_c.jpg') no-repeat center bottom;
     background-size: cover;
     color: #fff;
 }
 
-#lead {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.lead {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
