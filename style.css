@@ -1,11 +1,16 @@
 h3 {
-    color: #007bff; /* Bootstrap primary color for consistency */
+    color: #007bff;
 }
 
 #hero {
     background: url('assets/background_a.jpg') no-repeat center center;
+    background-position: 0 -56em; /* Adjust vertical offset as needed */
     background-size: cover;
     color: #fff;
+}
+
+#lead {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -15,13 +20,7 @@ footer {
     color: #6c757d;
 }
 
-.card-deck {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: .5rem;
-}
-
-.b-example-divider {
+.section-divider {
     width: 100%;
     height: 2rem;
     background-color: rgba(0, 0, 0, .1);
@@ -29,3 +28,67 @@ footer {
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
   }
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5rem;
+}
+
+.card {
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);  /* Lift the card slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Add a more pronounced shadow */
+}
+
+/* ---------------------------------------- */
+/* Popup styling for card/feature expansion */
+/* ---------------------------------------- */
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease; /* Transition only for opacity */
+    pointer-events: none; /* Disable clicks when hidden */
+}
+
+.popup.active {
+    opacity: 1; /* Visible when active */
+    pointer-events: auto; /* Enable clicks when visible */
+}
+  
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8); /* Initial scale */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease; /* Transition only for transform */
+  }
+  
+.popup.active .popup-content {
+    transform: translate(-50%, -50%) scale(1); /* Full scale when active */
+}
+  
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
