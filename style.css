@@ -12,11 +12,20 @@ h3 {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
+a.lolink {
+    color: #6c6c6c; /* Dark gray color */
+}
+
 footer {
     margin-top: 4rem;
     padding: 2rem 0;
     background: #f8f9fa;
     color: #6c757d;
+}
+
+section:nth-of-type(n+3) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .section-divider {
@@ -78,7 +87,7 @@ footer {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     border: 1px solid #ddd;
     transition: transform 0.3s ease; /* Transition only for transform */
-  }
+}
   
 .popup.active .popup-content {
     transform: translate(-50%, -50%) scale(1); /* Full scale when active */
