@@ -1,3 +1,7 @@
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
 h3 {
     color: #007bff;
 }
@@ -9,7 +13,7 @@ h3 {
 }
 
 .lead {
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 a.lolink {
@@ -43,12 +47,12 @@ section:nth-of-type(n+3) {
     grid-gap: .5rem;
 }
 
-.card {
+section:not(#action) .card {
     transition: all 0.3s ease; /* Smooth transition for all properties */
     cursor: pointer;
 }
 
-.card:hover {
+section:not(#action) .card:hover {
     transform: translateY(-5px);  /* Lift the card slightly */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Add a more pronounced shadow */
 }
@@ -75,7 +79,7 @@ section:nth-of-type(n+3) {
     opacity: 1; /* Visible when active */
     pointer-events: auto; /* Enable clicks when visible */
 }
-  
+
 .popup-content {
     position: absolute;
     top: 50%;
@@ -88,11 +92,11 @@ section:nth-of-type(n+3) {
     border: 1px solid #ddd;
     transition: transform 0.3s ease; /* Transition only for transform */
 }
-  
+
 .popup.active .popup-content {
     transform: translate(-50%, -50%) scale(1); /* Full scale when active */
 }
-  
+
 .close-button {
     position: absolute;
     top: 10px;
