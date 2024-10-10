@@ -54,7 +54,6 @@
 
             <p><span class="font-weight-bold">Responsible AI Music</span> (RAIM) is a collaborative initiative bringing together musicians, AI experts, ethicists, and legal experts to define, expand, and monitor requirements for generative music AI. Our goal is to work towards a framework providing guidance on the responsible development and use of generative models and system for music. By balancing innovation with ethical considerations, we advocate for a tradeoff where artists and AI development collaborate in a way that <span class="font-italic">safeguards</span>, <span class="font-italic">inspires</span>, and <span class="font-italic">augments</span> human creativity and artistry.</p>
 
-
             <p><span class="font-weight-bold">Can this be done by leveraging a Trustworthy AI framework?</span> This initiative takes a holistic approach, harmonising previous work that has tackled specific aspects of generative systems (e.g., transparency, evaluation, data), within the Ethics Guidelines for Trustworthy AI produced by the European Commission - a framework for designing responsible AI systems across 7 macro requirements. Focusing on generative music AI, we illustrate how these requirements can be contextualised for the field, addressing trustworthiness across multiple dimensions and integrating insights from the existing literature.</p>
         </section>
 
@@ -66,7 +65,7 @@
             <div class="row">
                 <div class="col-lg-8">
                 <p>Trustworthy AI encompasses artificial intelligence systems designed and implemented to adhere to fundamental ethical principles, technical robustness, and legal compliance.
-                A referential work ... <a href="https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1">Ethics Guidelines for Trustworthy Artificial Intelligence</a>, a document prepared by the <a href="https://digital-strategy.ec.europa.eu/en/policies/expert-group-ai">High-Level Expert Group on Artificial Intelligence</a>, an independent expert group appointed by the European Commission in 2018.</p>
+                A referential work in this domain are the <a href="https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1">Ethics Guidelines for Trustworthy Artificial Intelligence</a>, a document prepared by the <a href="https://digital-strategy.ec.europa.eu/en/policies/expert-group-ai">High-Level Expert Group on Artificial Intelligence</a>, an independent expert group appointed by the European Commission in 2018.</p>
                 <p>The guidelines include 7 key requirements that AI systems should meet to be trustworthy:
                 <ol>
                     <li>Human agency and oversight</li>
@@ -80,7 +79,7 @@
                 These requirements are of general applicability and relate to different stakeholders in the systems' life cycle (developers, deployers, end-users, broader society). Following a piloting process with 350 stakeholders, the guidelines lead to the creation of the <a href="https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment">Assessment list for Trustworthy AI (ALTAI)</a>.</p>
                 </div>
                 <div class="col-lg-4">
-                  <img src="assets/eutai_diag.jpg" class="img-fluid" alt="...">
+                  <img src="assets/eutai_diag.jpg" class="img-fluid" alt="Taken from https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html">
                 </div>
             </div>
         </section>
@@ -91,7 +90,7 @@
         <section id="features" class="container my-4">
             <h2>Guiding features for Responsible AI Music</h2>
             <p>We contextualise the Trustworthy AI framework to the domain of Generative AI Music, by defining responsible features that can drive the design and the evaluation of generative systems, in accordance with the literature.</p>
-            <img src="assets/feature_diagram.png" class="img-fluid" alt="Overview of features">
+            <img src="assets/feature_diagram.png" class="img-fluid my-2" alt="Overview of features">
 
             <p>Before presenting each feature, let's start by introducing some jargon. When referring to Music AIs, a distinction needs to be made between <span class="font-italic">music model</span> and <span class="font-italic">generative music system</span>.
             <ul>
@@ -103,12 +102,20 @@
                 </li>
             </ul>
 
-            Typically, a generative system is implemented in such a way as to conveniently wrap the functionalities of a particular model, meaning that a model can provide the computational backbone to various generative systems (e.g., plugins for music editors, production environments, smart instruments).
+            <p>Typically, a generative system is implemented in such a way as to conveniently wrap the functionalities of a particular model, meaning that a model can provide the computational backbone to various generative systems (e.g., plugins for music editors, production environments, smart instruments).
             For example, <a href="https://magenta.tensorflow.org/music-vae">MusicVAE</a> has been reused in different applications, such as Beat Blender, Melody Mixer, Latent Loops, and is also available through <a href="https://magenta.tensorflow.org/studio/">Magenta Studio</a>, a plugin for the DAW Ableton Live.
-            The distinction between model and system is a peculiar aspect to Generative AI, as their design and implementation involve different stakeholders, such as machine learning engineers and mathematicians for the former, and UX designers, software developers, data engineers for the latter, but also share music experts as a common denominator driving the evaluation efforts.
-            <p>
+            The distinction between model and system is a peculiar aspect to Generative AI, as their design and implementation involve different stakeholders, such as machine learning engineers and mathematicians for the former, and UX designers, software developers, data engineers for the latter, but also share music experts as a common denominator driving the evaluation efforts.</p>
 
-            <p>Discover all features below or jump to those in a specific Trustworthy AI pillar.</p>
+            <p>Discover all <em>features</em> below or jump to those belonging to a specific Trustworthy AI <em>pillar</em>.</p>
+            <ul class="list-inline">
+              <li class="list-inline-item mb-2"><a class="btn btn-outline-primary" href="#features-1">Human Agency and Oversight</a></li>
+              <li class="list-inline-item mb-2"><a class="btn btn-outline-primary" href="#features-2">Robustness & Safety</a></li>
+              <li class="list-inline-item mb-2"><a class="btn btn-outline-primary" href="#features-3">Privacy and Data Governance</a></li>
+              <li class="list-inline-item mb-2"><a class="btn btn-outline-primary" href="#features-4">Transparency</a></li>
+              <li class="list-inline-item mb-2"><a class="btn btn-outline-primary" href="#features-5">Diversity, Fairness, and Non-Discrimination</a></li>
+              <li class="list-inline-item mb-2"><a class="btn btn-outline-primary" href="#features-6">Societal and Environmental Wellbeing</a></li>
+              <li class="list-inline-item mb-2"><a class="btn btn-outline-primary" href="#features-7">Accountability</a></li>
+            </ul>
         </section>
 
         <div class="section-divider"></div>
@@ -134,7 +141,7 @@
                 <div class="popup-content">
                   <span class="close-button">&times;</span>
                   <h2>Personalisation</h2>
-                  <p>Lorem ipsum adf adf asd f sadf sd fad fa sdf adf kashdfklasbdflkadjflkadjflkadhflajsdl adf asd fa sdf asd f asd fas df asd fa sd f asdf sad f  asd asdf as d f asd fas dfasdf asdfasdf adsf</p>
+                  <p>Full feature description coming soon!</p>
                 </div>
               </div>
               <div class="card">
@@ -570,7 +577,7 @@
 
         <!-- Start Card Group 6 -->
         <section id="features-6" class="container my-4">
-            <h3>Pillar 6: Societal and environmental wellbeing</h3>
+            <h3>Pillar 6: Societal and Environmental Wellbeing</h3>
             <p>This requirement focuses on accuracy, reliability and reproducibility, resilience to attack, security, and fallback plans.</p>
 
             <div class="card-deck">
@@ -708,7 +715,9 @@
         <section id="action" class="container my-4">
             <h2>Call for action</h2>
 
-            <p>Interested in learning more about this initiative? Check out our <a href="">position paper</a> and and get involved!</p>
+            <div class="alert alert-info" role="alert">
+              Interested in learning more about the <em>Responsible AI Music (RAIM)</em> initiative? Check out our <a href="">position paper</a> and and get involved!
+            </div>
 
             <h4>How to get involved</h4>
 
@@ -720,8 +729,8 @@
               <div class="row no-gutters">
               <div class="col-md-8">
                 <div class="card-body text-left">
-                  <h5 class="card-title">Contribute to the framework & join our study</h5>
-                  <p class="card-text">Share your insights and experiences, and help shape the ... We are currently preparing a study to assess the importance of each feature relative to each stakeholder group. To register your interest in participating, please click the button below to send us an email. We will contact you with further details once the study commences and ethical approvals are in place.</p>
+                  <h5 class="card-title">Contribute to the RAIM framework & join our study</h5>
+                  <p class="card-text">We are building a network of experts who can provide advice and support on responsible AI music. This could involve participating in online forums, or attending our events. Share your insights and experiences, and help inform the next generation of AI Music systems. We are <u>soon launching a study</u> to assess the importance of each feature relative to each stakeholder group, leading to the definition of the framework. To register your interest in participating, please click the button below to send us an email. We will contact you with further details once the study commences and all protocols are in place.</p>
                   <a href="mailto:amlab@liverpool.ac.uk?subject=RAIM%20Initiative:%20Interest%20in%20taking%20part%20to%20this%20study&body=Hello,%0A%0AI%20am%20sharing%20my%20interest%20in%20taking%20part%20to%20this%20study.%20Please,%20contact%20me%20when%20the%20study%20starts." class="btn btn-primary">Register Your Interest</a>
                 </div>
               </div>
@@ -736,7 +745,7 @@
               <div class="col-md-8">
                 <div class="card-body text-left">
                 <h5 class="card-title">Reach out and collaborate with us</h5>
-                <p class="card-text">We are always looking for new collaborations and partnerships. If you are interested in working with us, please get in touch. Collaborate on research projects: Contribute your expertise to advance our understanding and development of ethical and responsible AI technologies.</p>
+                <p class="card-text">If you are interested in working with us, please get in touch! We are actively seeking collaborations to drive the implementation of the RAIM framework. Join us in promoting the next generation of AI music systems that prioritise ethical considerations and adhere to responsible features. Let's work together to establish benchmarks, develop databases and tools, and explore innovative solutions for RAIM.</p>
                 <a href="mailto:amlab@liverpool.ac.uk" class="btn btn-secondary get-involved-btn">Reach Out</a>
                 </div>
               </div>
@@ -749,8 +758,8 @@
             <div class="card bg-light mb-3">
               <div class="card-body text-left">
                 <h5 class="card-title">Share the initiative</h5>
-                <p class="card-text">Help us spread the word about the RAIM Initiative. Become an advocate and raise awareness about the potential of generative AI in music and the importance of responsible innovation. Share our website and social media channels with your network.</p>
-                <div class="a2a_kit a2a_kit_size_32 a2a_default_style get-involved-btn" data-a2a-title="RAIM Initiative" data-a2a-url="https://amlab.liverpool.ac.uk">
+                <p class="card-text">Help us spread the word about the RAIM Initiative. Become an advocate and raise awareness about the potential of generative AI in music and the importance of responsible innovation. Share our website and social media channels with your network, or writing about us in your publications.</p>
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style get-involved-btn" data-a2a-title="Responsible AI Music Initiative (RAIM)" data-a2a-url="https://amlab.github.io/raim-initiative">
                   <a class="a2a_button_facebook"></a>
                   <a class="a2a_button_x"></a>
                   <a class="a2a_button_mastodon"></a>
@@ -759,7 +768,7 @@
                 </div>
               </div>
             </div>
-          
+
           <br>
           <blockquote class="blockquote">
             <p class="mb-0">Together, we aim to foster a vibrant and inclusive ecosystem where generative AI empowers musicians and enriches the musical landscape for everyone.</p>
@@ -770,7 +779,10 @@
 
     <footer class="text-muted py-4 bg-light">
         <div class="container">
-            <p>Responsible AI Music, An Open Initiative © 2024</p>
+            <div class="d-flex justify-content-between">
+              <p>Responsible AI Music, An Open Initiative © 2024</p>
+              <p><i>*All images in this page are taken from Unsplash.</i></p>
+            </div>
         </div>
     </footer>
 
