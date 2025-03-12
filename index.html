@@ -10,7 +10,7 @@
 <body>
     <header>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">RAIM</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -18,18 +18,9 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tai">Background</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#action">Call for action</a>
-                    </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                       <div class="dropdown">
                         <button class="nav-link dropbtn">Pillars</button>
                         <div class="dropdown-content">
@@ -51,11 +42,34 @@
     <main role="main">
         <!-- Hero Section -->
         <section id="hero" class="jumbotron">
-            <div class="container">
+            <div id="title-wrapper" class="container">
+              <div id="title">
                 <h1 class="display-4 text-body-emphasis">Responsible AI Music</h1>
                 <p class="lead">Ensuring the Future of Music Creation aligns with Trustworthy AI Principles</p>
                 <!-- <a class="btn btn-primary btn-lg" href="#importance" role="button">Learn More</a> -->
+              </div>
             </div>
+        </section>
+
+        <!-- Contents -->
+        <section class="container my-4">
+          <div id="contents">
+            <h2 id="jump"><b>Jump to:</b></h2>
+            <ul class="list-inline">
+            <li class="list-inline-item mb-2">
+              <a class="btn btn-outline-primary" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="list-inline-item mb-2">
+              <a class="btn btn-outline-primary" href="#tai">Background</a>
+            </li>
+            <li class="list-inline-item mb-2">
+              <a class="btn btn-outline-primary" href="#features">Features Overview</a>
+            </li>
+            <li class="list-inline-item mb-2">
+              <a class="btn btn-outline-primary" href="#action">Call for action</a>
+            </li>
+            </ul>
+          </div>
         </section>
 
         <!-- Importance Section -->

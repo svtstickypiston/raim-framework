@@ -1,0 +1,10 @@
+{
+    "id": 42,
+    "feature_num": "01",
+    "feature_name": "Audit Access",
+    "pillar_id": 7,
+    "pillar": "Accountability",
+    "facet": "Auditability",
+    "feature_brief": "If the system is proprietary, independent auditors can access the model and training data to evaluate it.",
+    "feature_use_case": "This is about allowing for independent checks and balances.  Even if the AI system is not open-source, trusted third parties should be able to examine it to ensure that it's meeting ethical and legal standards.  Their findings should be made public, providing an extra layer of accountability."
+}

@@ -1,0 +1,10 @@
+{
+    "id": 43,
+    "feature_num": "02",
+    "feature_name": "Impact Assessment",
+    "pillar_id": 7,
+    "pillar": "Accountability",
+    "facet": "Minimisation of negative impacts",
+    "feature_brief": "Potential negative impacts of the system were identified and addressed before it was released.",
+    "feature_use_case": "This means the developers didn't just focus on the positive aspects of the AI.  They also thought carefully about potential harms, such as job displacement, bias, or misuse, and took steps to minimize those risks. This demonstrates a proactive approach to responsible development."
+}

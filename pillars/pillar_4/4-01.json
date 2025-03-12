@@ -1,0 +1,10 @@
+{
+    "id": 22,
+    "feature_num": "01",
+    "feature_name": "System Documentation",
+    "pillar_id": 4,
+    "pillar": "Transparency",
+    "facet": "Traceability",
+    "feature_brief": "The AI system's design and development process are clearly documented.",
+    "feature_use_case": "This is like having a detailed manual for the AI.  The documentation should explain how the AI works, how it was trained, and how to use it.  This is important for transparency and for allowing others to understand and potentially improve upon the system."
+}

@@ -1,0 +1,10 @@
+{
+    "id": 5,
+    "feature_num": "05",
+    "feature_name": "Safety Disclaimer",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Agency",
+    "feature_brief": "The system warns users if it might generate music that could be considered offensive or harmful.",
+    "feature_use_case": "Just like some movies come with content warnings, this feature ensures the AI provides a heads-up if the music it's about to generate might contain something that some people would find upsetting. This could include offensive language in lyrics, extremely dissonant or disturbing sounds, or content that promotes harmful ideas.  This is important for protecting users from unexpected and potentially negative experiences, and it shows that the developers are thinking about the potential impact of their AI."
+}

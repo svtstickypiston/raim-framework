@@ -1,0 +1,10 @@
+{
+    "id": 2,
+    "feature_num": "02",
+    "feature_name": "Creative Feedback (HITL)",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Oversight",
+    "feature_brief": "Users can guide the AI's music generation process by providing feedback as it creates.",
+    "feature_use_case": "This means you're not just giving the AI a single instruction and hoping for the best.  Instead, you can listen to what it's creating *while* it's creating it, and give feedback like \"more upbeat,\" \"change the key,\" or \"add a drum solo.\"  The AI then adjusts the music based on your feedback, leading to a more collaborative and satisfying creative process.  It's like jamming with a bandmate who happens to be an AI."
+}

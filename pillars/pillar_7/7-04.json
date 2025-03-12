@@ -1,0 +1,10 @@
+{
+    "id": 45,
+    "feature_num": "04",
+    "feature_name": "Generative Redress",
+    "pillar_id": 7,
+    "pillar": "Accountability",
+    "facet": "Redress",
+    "feature_brief": "If the system creates harmful or inappropriate output, there are ways to address the problem.",
+    "feature_use_case": "This is about having a plan for when things go wrong.  If the AI generates offensive content, plagiarizes music, or causes other harm, there should be a way for users to report the problem and for the developers to take action.  This might involve removing the offending content, compensating affected parties, or improving the AI to prevent similar issues in the future."
+}

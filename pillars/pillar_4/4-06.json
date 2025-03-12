@@ -1,0 +1,10 @@
+{
+    "id": 27,
+    "feature_num": "06",
+    "feature_name": "Artificial Awareness",
+    "pillar_id": 4,
+    "pillar": "Transparency",
+    "facet": "Communication",
+    "feature_brief": "Users are always aware that they are interacting with an AI, not a human.",
+    "feature_use_case": "This is a basic principle of ethical AI. It should be clear to users at all times that they are interacting with a machine, not a person. This prevents deception and helps users set appropriate expectations."
+}

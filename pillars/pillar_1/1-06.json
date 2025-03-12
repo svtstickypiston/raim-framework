@@ -1,0 +1,10 @@
+{
+    "id": 6,
+    "feature_num": "06",
+    "feature_name": "Deception Avoidance",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Agency",
+    "feature_brief": "The system is honest about the copyright and ownership of the music it generates.",
+    "feature_use_case": "This feature is all about being upfront and transparent.  If an AI generates a piece of music that sounds very similar to an existing song, it shouldn't pretend it's completely original.  It should be clear about whether the music is entirely new, inspired by existing works, or potentially infringing on someone else's copyright. This is crucial for protecting the rights of human artists and for preventing legal problems.  It also helps users understand what they can and can't do with the AI-generated music (e.g., can they use it commercially?)."
+}

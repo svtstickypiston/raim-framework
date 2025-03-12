@@ -1,0 +1,10 @@
+{
+    "id": 8,
+    "feature_num": "01",
+    "feature_name": "Music Leakage",
+    "pillar_id": 2,
+    "pillar": "Robustness and Safety",
+    "facet": "Resilience",
+    "feature_brief": "The AI doesn't accidentally reproduce parts of the music it was trained on.",
+    "feature_use_case": "This is a crucial safeguard against plagiarism.  The AI should be designed to generate *new* music, not just copy and paste existing songs.  This feature ensures that the AI doesn't accidentally reveal copyrighted material from its training data, protecting the rights of human artists."
+}

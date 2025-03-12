@@ -1,0 +1,10 @@
+{
+    "id": 34,
+    "feature_num": "04",
+    "feature_name": "Accessibility Awareness",
+    "pillar_id": 5,
+    "pillar": "Diversity, Non-discrimination and Fairness",
+    "facet": "Accessibility and universal design",
+    "feature_brief": "The system clearly states if it has limitations in terms of who can use it.",
+    "feature_use_case": "This is about being honest and upfront about any accessibility gaps.  If the system is not suitable for users with certain disabilities, it should clearly state that. This prevents frustration and helps users find tools that are appropriate for their needs."
+}

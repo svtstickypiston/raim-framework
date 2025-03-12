@@ -1,0 +1,10 @@
+{
+    "id": 35,
+    "feature_num": "05",
+    "feature_name": "Continuous Assessment",
+    "pillar_id": 5,
+    "pillar": "Diversity, Non-discrimination and Fairness",
+    "facet": "Stakeholder participation",
+    "feature_brief": "The system involves musicians, ethicists, and AI experts in ongoing evaluation and improvement.",
+    "feature_use_case": "This means the AI isn't just developed and then forgotten.  There's a continuous process of checking how it's performing, getting feedback from different groups of people (including those who create and use music), and making improvements based on that feedback. This ensures that the AI stays relevant, responsible, and beneficial over time."
+}

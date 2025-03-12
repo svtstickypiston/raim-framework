@@ -1,0 +1,10 @@
+{
+    "id": 14,
+    "feature_num": "07",
+    "feature_name": "Training Data Availability",
+    "pillar_id": 2,
+    "pillar": "Robustness and Safety",
+    "facet": "Reproducibility",
+    "feature_brief": "The music data used to train the AI is publicly accessible.",
+    "feature_use_case": "This is important for understanding where the AI's \"musical knowledge\" comes from.  If the training data is available, others can see what kind of music the AI was exposed to, which can help explain its biases and limitations.  It also allows for scrutiny of the data for potential copyright issues."
+}

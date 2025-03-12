@@ -1,0 +1,10 @@
+{
+    "id": 19,
+    "feature_num": "04",
+    "feature_name": "Prompt Governance",
+    "pillar_id": 3,
+    "pillar": "Privacy and Data Governance",
+    "facet": "Access to data",
+    "feature_brief": "If the AI system stores user data, access to that data is strictly controlled.",
+    "feature_use_case": "This goes beyond just keeping prompts private.  It means that if the AI system stores *any* data related to your interactions (e.g., your feedback, the music you generate), there are clear rules about who can access that data and under what circumstances.  This protects your privacy and ensures that your data isn't misused."
+}

@@ -1,0 +1,10 @@
+{
+    "id": 3,
+    "feature_num": "03",
+    "feature_name": "Controllability (conditioning)",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Oversight",
+    "feature_brief": "Users can control the AI's music generation using various inputs, like text, melodies, or rhythms.",
+    "feature_use_case": "This is about giving you the tools to shape the music the AI generates.  Instead of just saying \"make me a song,\" you can provide specific guidance.  You might type a text description (\"a sad piano piece in the style of Chopin\"), hum a melody, tap out a rhythm, or even select an emotion (\"happy,\" \"melancholy\") to guide the AI.  The more ways you can control the AI, the more it becomes a true extension of your creative vision."
+}

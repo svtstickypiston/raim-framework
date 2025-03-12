@@ -1,0 +1,10 @@
+{
+    "id": 13,
+    "feature_num": "06",
+    "feature_name": "Model Availability",
+    "pillar_id": 2,
+    "pillar": "Robustness and Safety",
+    "facet": "Reproducibility",
+    "feature_brief": "The AI model's code and pre-trained versions are publicly accessible.",
+    "feature_use_case": "This is about transparency and allowing others to build upon the work.  If the AI's code and a version that's already been trained are available, other researchers and developers can examine it, learn from it, improve it, or even use it to create their own systems. This promotes collaboration and accelerates innovation in the field."
+}

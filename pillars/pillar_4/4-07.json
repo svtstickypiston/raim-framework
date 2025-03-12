@@ -1,0 +1,10 @@
+{
+    "id": 28,
+    "feature_num": "07",
+    "feature_name": "Benefits",
+    "pillar_id": 4,
+    "pillar": "Transparency",
+    "facet": "Communication",
+    "feature_brief": "The system clearly explains the advantages of using it compared to other music creation tools.",
+    "feature_use_case": "This is about being upfront about what the AI can do *better* than other methods. It might be faster, cheaper, easier to use, or able to generate music in styles that are difficult for humans to create. This helps users understand why they might want to use the AI in the first place."
+}

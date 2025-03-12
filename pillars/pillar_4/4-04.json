@@ -1,0 +1,10 @@
+{
+    "id": 25,
+    "feature_num": "04",
+    "feature_name": "Generation Explainability",
+    "pillar_id": 4,
+    "pillar": "Transparency",
+    "facet": "Explainability",
+    "feature_brief": "The system can explain *how* it created a particular piece of music.",
+    "feature_use_case": "This goes beyond just saying \"the AI made it.\"  The system should provide some insight into its creative process.  For example, it might explain which musical elements it focused on, what rules it followed, or what kind of inspiration it drew from.  This helps users understand *why* the music sounds the way it does and makes the AI feel less like a \"black box.\"pillar"
+}

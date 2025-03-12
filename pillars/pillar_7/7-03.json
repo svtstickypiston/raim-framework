@@ -1,0 +1,10 @@
+{
+    "id": 44,
+    "feature_num": "03",
+    "feature_name": "Responsible Statement",
+    "pillar_id": 7,
+    "pillar": "Accountability",
+    "facet": "Trade-off",
+    "feature_brief": "If the system doesn't fully meet all responsible AI requirements, the reasons are clearly explained.",
+    "feature_use_case": "This is about transparency and honesty.  It's not always possible to create a perfect AI system that meets every single ethical requirement.  This feature means that if there are any trade-offs or compromises, they are clearly documented and justified.  For example, a system might be very accurate but not very explainable.  The developers should explain why they made that choice."
+}

@@ -1,0 +1,10 @@
+{
+    "id": 9,
+    "feature_num": "02",
+    "feature_name": "Generation Fallback",
+    "pillar_id": 2,
+    "pillar": "Robustness and Safety",
+    "facet": "Fallback plan",
+    "feature_brief": "If the AI starts generating inappropriate music, it can switch to a safer, simpler mode.",
+    "feature_use_case": "This is a backup plan in case the main AI system starts producing something undesirable.  If the AI detects that its output is becoming offensive, repetitive, or otherwise problematic, it can automatically switch to a more basic, rule-based system that is guaranteed to produce safe, if less creative, music.  This ensures that the system always provides a reasonable output, even if it can't always be perfect."
+}

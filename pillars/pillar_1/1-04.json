@@ -1,0 +1,10 @@
+{
+    "id": 4,
+    "feature_num": "04",
+    "feature_name": "Red Button",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Oversight",
+    "feature_brief": "Users can immediately stop the AI if it starts generating something they don't like or find offensive.",
+    "feature_use_case": "This is a simple but essential safety feature.  If the AI starts generating music that's unpleasant, disturbing, or contains offensive content, you have a way to instantly shut it down.  It's like having an emergency stop button on a machine. This is important for giving users a sense of control and for preventing the AI from creating harmful or unwanted output."
+}

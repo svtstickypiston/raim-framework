@@ -1,0 +1,10 @@
+{
+    "id": 23,
+    "feature_num": "02",
+    "feature_name": "Evaluation Documentation",
+    "pillar_id": 4,
+    "pillar": "Transparency",
+    "facet": "Traceability",
+    "feature_brief": "The methods used to evaluate the AI's performance are clearly documented and reproducible.",
+    "feature_use_case": "This is about showing your work.  The documentation should explain *how* the AI's music was evaluated, what metrics were used, and what the results were.  This allows others to verify the claims made about the AI's quality and to compare it to other systems."
+}

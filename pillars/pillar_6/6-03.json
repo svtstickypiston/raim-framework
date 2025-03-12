@@ -1,0 +1,10 @@
+{
+    "id": 38,
+    "feature_num": "03",
+    "feature_name": "Responsible Data Collection",
+    "pillar_id": 6,
+    "pillar": "Societal and Environmental Well-being",
+    "facet": "Social impact",
+    "feature_brief": "If the AI uses any data collected from people (e.g., annotations), that data was collected ethically and fairly.",
+    "feature_use_case": "Sometimes, AI systems need human help to improve.  For example, people might be asked to label musical examples or provide feedback on AI-generated music. This feature ensures that those people were treated fairly, paid appropriately, and that their privacy was protected."
+}

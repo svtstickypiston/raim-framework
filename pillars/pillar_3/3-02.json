@@ -1,0 +1,10 @@
+{
+    "id": 17,
+    "feature_num": "02",
+    "feature_name": "Training Metadata Integrity",
+    "pillar_id": 3,
+    "pillar": "Privacy and Data Governance",
+    "facet": "Data quality",
+    "feature_brief": "The system checks and communicates if the music it was trained on has correct information about its creators and copyright.",
+    "feature_use_case": "Metadata is like the \"label\" on a piece of music, providing information like the artist, composer, album, and copyright holder. This feature means the AI system verifies that this information is accurate for the music it uses for training. It should also let you know if it finds errors or incomplete metadata. This is crucial for ensuring that artists are properly credited and that copyright is respected."
+}

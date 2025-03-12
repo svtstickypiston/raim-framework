@@ -1,0 +1,10 @@
+{
+    "id": 41,
+    "feature_num": "06",
+    "feature_name": "Revenue Sharing",
+    "pillar_id": 6,
+    "pillar": "Societal and Environmental Well-being",
+    "facet": "Society and democracy",
+    "feature_brief": "If the system is a paid service, some of the revenue is shared with the artists whose music was used for training.",
+    "feature_use_case": "This is about fairness and compensation.  If an AI system is making money by generating music, and that music is based on the work of human artists, those artists should receive a share of the profits. This feature ensures that there's a mechanism for distributing revenue fairly, acknowledging the contribution of the original creators."
+}

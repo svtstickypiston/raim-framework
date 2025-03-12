@@ -1,0 +1,10 @@
+{
+    "id": 16,
+    "feature_num": "01",
+    "feature_name": "Prompt Leakage",
+    "pillar_id": 3,
+    "pillar": "Privacy and Data Governance",
+    "facet": "Privacy",
+    "feature_brief": "The AI system doesn't share or reveal the prompts (instructions) that users give it.",
+    "feature_use_case": "This is about protecting your privacy.  The prompts you give the AI might contain personal information, creative ideas, or other sensitive data.  This feature ensures that this information is kept confidential and not shared with others without your consent. It's like keeping your diary private."
+}

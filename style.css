@@ -1,3 +1,11 @@
+header {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(194, 239, 247);
+    border-bottom: #6c6c6c;
+    z-index: 1;
+}
+
 h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
@@ -10,6 +18,21 @@ h3 {
     background: url('assets/background_c.jpg') no-repeat center bottom;
     background-size: cover;
     color: #fff;
+    border-radius: 0;
+}
+
+#title-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#title {
+    left: 0px;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .lead {
@@ -39,7 +62,20 @@ section:nth-of-type(n+3) {
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
+}
+
+#contents {
+    padding-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    align-self: left;
+    width: max-content;
+}
+
+#jump {
+    padding-left: 0.5rem;
+}
 
 .card-deck {
     display: grid;
@@ -217,4 +253,4 @@ section:not(#action) .card:hover {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: buttonface;}
+.dropdown:hover .dropbtn {background-color: rgba(0,0,0,0.1);}

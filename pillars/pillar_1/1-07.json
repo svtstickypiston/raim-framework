@@ -1,0 +1,10 @@
+{
+    "id": 7,
+    "feature_num": "07",
+    "feature_name": "Artist Involvement",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Oversight",
+    "feature_brief": "Real musicians were actively involved in designing and developing the AI system.",
+    "feature_use_case": "This means the AI wasn't just built by computer scientists in isolation.  Professional musicians were consulted and involved throughout the process, providing their expertise on what makes music good, what musicians need, and how AI can best support human creativity. This is important for ensuring the AI is actually useful and relevant to the music community, and that it's designed in a way that respects artistic values."
+}

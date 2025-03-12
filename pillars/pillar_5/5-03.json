@@ -1,0 +1,10 @@
+{
+    "id": 33,
+    "feature_num": "03",
+    "feature_name": "Accessibility Assessment",
+    "pillar_id": 5,
+    "pillar": "Diversity, Non-discrimination and Fairness",
+    "facet": "Accessibility and universal design",
+    "feature_brief": "If the system claims to be accessible, it has been tested with the users it's designed for.",
+    "feature_use_case": "This is about making sure the accessibility features actually work.  It's not enough to just add some extra options; the system needs to be tested with people who have the specific needs those options are supposed to address.  This ensures that the system is truly usable and helpful for everyone."
+}

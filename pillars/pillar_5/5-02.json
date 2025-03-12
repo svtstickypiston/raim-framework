@@ -1,0 +1,10 @@
+{
+    "id": 32,
+    "feature_num": "02",
+    "feature_name": "Accessible Interfaces",
+    "pillar_id": 5,
+    "pillar": "Diversity, Non-discrimination and Fairness",
+    "facet": "Accessibility and universal design",
+    "feature_brief": "The system offers different ways to interact with it, making it accessible to a wider range of users.",
+    "feature_use_case": "This means the AI isn't just designed for one type of user.  It might offer options for people with visual impairments, motor disabilities, or other needs.  This could include alternative input methods (e.g., voice control, eye tracking), customizable interfaces, and support for assistive technologies. The goal is to make music creation accessible to as many people as possible, regardless of their abilities."
+}

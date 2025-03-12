@@ -1,0 +1,10 @@
+{
+    "id": 26,
+    "feature_num": "05",
+    "feature_name": "Data Explainability",
+    "pillar_id": 4,
+    "pillar": "Transparency",
+    "facet": "Explainability",
+    "feature_brief": "The system can show which parts of its training data influenced a particular piece of generated music.",
+    "feature_use_case": "This is about tracing the AI's \"inspiration.\"  If the AI generates a melody that sounds similar to a particular song in its training data, it should be able to point to that song as a potential source of influence.  This is important for understanding the AI's creative process and for identifying potential copyright issues."
+}

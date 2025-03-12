@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "feature_num": "01",
+    "feature_name": "Personalisation",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Agency",
+    "feature_brief": "The system can adapt its musical style based on a user's own musical repertoire.",
+    "feature_summary": "Personalisation allows a musician to create stylised music based on their existing repertoire, and the user will be able to influence the output of the system by personalising it based on certain songs.",
+    "feature_use_case": "Imagine a music-making AI that learns *your* specific sound. This feature means the AI can analyze the music you've created or a collection of music you provide, and then use that understanding to generate new music that fits your personal style.  It's like having an AI collaborator that speaks your musical language. This is important because it gives *you* more creative control and makes the AI feel more like a partner than a replacement.  It goes beyond just picking a genre; it's about capturing the nuances of your individual artistic voice."
+    
+}

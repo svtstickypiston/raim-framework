@@ -1,0 +1,10 @@
+{
+    "id": 18,
+    "feature_num": "03",
+    "feature_name": "Safety of Training Data",
+    "pillar_id": 3,
+    "pillar": "Privacy and Data Governance",
+    "facet": "Data quality",
+    "feature_brief": "The system warns users if it was trained on music that might be considered offensive or harmful.",
+    "feature_use_case": "This is about transparency and informed consent.  If the AI was trained on music with offensive lyrics, violent themes, or other potentially problematic content, the system should let you know.  This allows you to make an informed decision about whether you want to use the system and what kind of output you might expect."
+}

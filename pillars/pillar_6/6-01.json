@@ -1,0 +1,10 @@
+{
+    "id": 36,
+    "feature_num": "01",
+    "feature_name": "Training Footprint",
+    "pillar_id": 6,
+    "pillar": "Societal and Environmental Well-being",
+    "facet": "Sustainable and environmentally friendly AI",
+    "feature_brief": "The system provides information about the resources used to train the AI model (hardware, time, energy).",
+    "feature_use_case": "Training large AI models can consume a lot of energy and resources. This feature is about being transparent about that environmental impact.  The system should provide information about the type of computers used, how long the training took, and how much energy was consumed. This allows users to make informed choices about the environmental cost of using the AI."
+}

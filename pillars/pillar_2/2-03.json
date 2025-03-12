@@ -1,0 +1,10 @@
+{
+    "id": 10,
+    "feature_num": "03",
+    "feature_name": "Model Evaluation",
+    "pillar_id": 2,
+    "pillar": "Robustness and Safety",
+    "facet": "Accuracy",
+    "feature_brief": "The AI's performance is evaluated using standard methods and compared to other music AI systems.",
+    "feature_use_case": "This is about making sure the AI is actually good at what it does.  Developers should use established methods to test the AI's ability to generate music that is coherent, interesting, and meets certain quality standards.  They should also compare its performance to other similar AI systems to see how it stacks up. This helps users understand the AI's strengths and weaknesses and ensures that it's not just a gimmick."
+}
