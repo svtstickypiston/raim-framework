@@ -1,8 +1,0 @@
-{
-    "pillar_id": 5,
-    "name": "Diversity, Fairness, and Non-Discrimination",
-    "tagline": "Promoting fairness in the output and usage of the AI system",
-    "brief": "This requirement emphasises the need to promote diversity, non-discrimination, and fairness in generative systems by establishing mechanisms to avoid unfair bias, designing for accessibility, and ensuring fair treatment for all users.",
-    "description": "This requirement focuses on promoting inclusivity and avoiding bias in generative music AI. Key features include mitigating unfair bias in training data and model outputs, designing accessible interfaces for diverse users, and actively involving stakeholders, especially musicians, in the design, development, and evaluation processes.",
-    "imagepath": "/header_5.jpg"
-}

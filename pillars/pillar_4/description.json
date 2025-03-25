@@ -1,8 +1,0 @@
-{
-    "pillar_id": 4,
-    "name": "Transparency",
-    "tagline": "Keeping users informed on the inner workings of the AI system",
-    "brief": "This requirement is closely linked with the principle of explainability and encompasses transparency of elements relevant to generative systems, e.g., the data, the system, and the business model. Hereafter, we outline the main elements influencing the transparency of these systems.",
-    "description": "This requirement promotes explainability and openness in generative music AI. Traceability is achieved through comprehensive documentation of the model’s design, evaluation, and datasets, along with robust watermarking of AI-generated music (system-wise). Explainability features enable users to understand the generation process and trace outputs back to their source material. Clear communication about the system’s purpose, capabilities, limitations, and potential musical biases is essential for informed use.",
-    "imagepath": "/header_4.jpg"
-}

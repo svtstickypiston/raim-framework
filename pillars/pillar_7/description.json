@@ -1,8 +1,0 @@
-{
-    "pillar_id": 7,
-    "name": "Accountability",
-    "tagline": "Ensuring that the AI system is accountable for its impacts",
-    "brief": "This requirement corroborates all the others by ensuring that AI systems are accountable for their responsible design, implementation, and impact throughout their lifecycle.",
-    "description": "This requirement ensures responsible development and deployment of generative music AI systems. It includes provisions for auditability, allowing internal and external assessments of the system’s compliance with responsible AI principles. It also necessitates identifying and mitigating potential negative impacts, making ethical trade-offs when necessary, and redress mechanisms for any unjust adverse impacts.",
-    "imagepath": "/header_7.jpg"
-}
