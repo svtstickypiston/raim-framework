@@ -1,0 +1,12 @@
+{
+    "id": 2,
+    "feature_num": "02",
+    "feature_name": "Creative Feedback (HITL)",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Oversight",
+    "feature_brief": "Users can guide the AI's music generation process by providing feedback as it creates.",
+    "feature_summary": "Creative feedback allows users to guide AI-generated music by providing input after each training cycle. This could improve the output quality and give users more control. Training would continue until the user is satisfied with the results.",
+    "feature_use_case": "This means you're not just giving the AI a single instruction and hoping for the best.  Instead, you can listen to what it's creating *while* it's creating it, and give feedback like \"more upbeat,\" \"change the key,\" or \"add a drum solo.\"  The AI then adjusts the music based on your feedback, leading to a more collaborative and satisfying creative process.  It's like jamming with a bandmate who happens to be an AI.",
+    "feature_long": "Think of this like a jam session with an AI. Instead of just generating a complete piece of music in one go, the system allows you to provide feedback *during* the creation process. You might hear a melody it generated and say, \"Make it a bit sadder,\" or \"Change that chord to a minor key.\" The system then takes your feedback into account and adjusts the music accordingly. This is called Human-in-the-Loop (HITL). This iterative process ensures that you, the user, remain in control of the creative direction, shaping the music to fit your vision, step by step, as the AI learns from your guidance to achieve your musical goals."
+}

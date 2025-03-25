@@ -1,0 +1,12 @@
+{
+    "id": 4,
+    "feature_num": "04",
+    "feature_name": "Red Button",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Oversight",
+    "feature_brief": "Users can immediately stop the AI if it starts generating something they don't like or find offensive.",
+    "feature_summary": "To prevent distress from unsettling or unsafe music, users can use a \"red button\" to instantly stop the generation process and erase the produced music. This helps ensure immediate control and safety during creation.",
+    "feature_use_case": "This is a simple but essential safety feature.  If the AI starts generating music that's unpleasant, disturbing, or contains offensive content, you have a way to instantly shut it down.  It's like having an emergency stop button on a machine. This is important for giving users a sense of control and for preventing the AI from creating harmful or unwanted output.",
+    "feature_long": "This is a safety feature, like an emergency stop button. While generative AI aims to create enjoyable music, there's always a chance it might produce something unexpected, inappropriate, or even offensive to some categories of users. The 'Red Button' feature guarantees that you, the user, have ultimate control. If at any point you hear something you don't like - whether it's a jarring melody, disturbing sounds, or inappropriate lyrics - you can immediately stop the music generation. This ensures a safe and comfortable experience, preventing exposure to unwanted or potentially harmful content. It puts the power back in your hands, literally."
+}

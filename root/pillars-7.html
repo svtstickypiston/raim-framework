@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAIM Initiative</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">RAIM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="dropdown">
+                        <button class="nav-link dropbtn">Pillars</button>
+                        <div class="dropdown-content">
+                          <a href="./pillars-1.html">Pillar 1</a>
+                          <a href="./pillars-2.html">Pillar 2</a>
+                          <a href="./pillars-3.html">Pillar 3</a>
+                          <a href="./pillars-4.html">Pillar 4</a>
+                          <a href="./pillars-5.html">Pillar 5</a>
+                          <a href="./pillars-6.html">Pillar 6</a>
+                          <a href="./pillars-7.html">Pillar 7</a>
+                        </div>
+                      </div>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <main role="main">
+        <!-- Hero Section -->
+        <section id="hero" class="jumbotron">
+            <div id="title-wrapper" class="container">
+            <div id="title">
+                <h1 class="display-4 text-body-emphasis">Accountability</h1>
+                <p class="lead">Ensuring that the AI system is accountable for its impacts</p>
+            </div>
+            </div>
+        </section>
+        <!-- Features Section -->
+        <section id="features" class="container my-4">
+          <h2>Background Information</h2>
+          <!-- Write about background information -->
+            <p>This requirement corroborates all the others by ensuring that AI systems are accountable for their responsible design, implementation, and impact throughout their lifecycle.</p>
+            <p>This requirement ensures responsible development and deployment of generative music AI systems. It includes provisions for auditability, allowing internal and external assessments of the system’s compliance with responsible AI principles. It also necessitates identifying and mitigating potential negative impacts, making ethical trade-offs when necessary, and redress mechanisms for any unjust adverse impacts.</p>
+        </section>
+        <div class="section-divider"></div>
+        <pre id="output"></pre>
+        <!-- Start Card Group -->
+        <section class="container my-4">
+          <h3>Features for Pillar 7: Accountability</h3>
+        <div class="expandable_section">
+    
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Audit Access</h5>                    <p class="expandable_body">If the system is proprietary, independent auditors can access the model and training data to evaluate it.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 7-01</small>                        <small class="text-muted">Auditability</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>It may be important for a proprietary generative system to ensure auditability, and allow internal and external auditors access upon request to assess its compliance with the previously defined responsible features. These audit reports could be publicly available.</p>                        <p>This is about allowing for independent checks and balances.  Even if the AI system is not open-source, trusted third parties should be able to examine it to ensure that it's meeting ethical and legal standards.  Their findings should be made public, providing an extra layer of accountability.</p>                    </div>                </div>                </div>            
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Impact Assessment</h5>                    <p class="expandable_body">Potential negative impacts of the system were identified and addressed before it was released.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 7-02</small>                        <small class="text-muted">Minimisation of negative impacts</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>To ensure responsibility, potential negative impacts of the system might be investigated, minimized, and openly communicated. Risk assessments involving stakeholders and protecting whistleblowers are crucial, especially when responsible features can’t be fully implemented. Methods like "red-teaming" (similar to cybersecurity penetration testing) or questionnaires can help identify and address these risks.</p>                        <p>This means the developers didn't just focus on the positive aspects of the AI.  They also thought carefully about potential harms, such as job displacement, bias, or misuse, and took steps to minimize those risks. This demonstrates a proactive approach to responsible development.</p>                    </div>                </div>                </div>            
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Responsible Statement</h5>                    <p class="expandable_body">If the system doesn't fully meet all responsible AI requirements, the reasons are clearly explained.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 7-03</small>                        <small class="text-muted">Trade-off</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>Some features in a generative system may require trade-offs, such as sacrificing explainability for highly realistic music generation or incurring high computational costs. These trade-offs should prioritize minimizing risks to ethical principles. If no ethical balance can be achieved, the development or use of the model should be reconsidered.</p>                        <p>This is about transparency and honesty.  It's not always possible to create a perfect AI system that meets every single ethical requirement.  This feature means that if there are any trade-offs or compromises, they are clearly documented and justified.  For example, a system might be very accurate but not very explainable.  The developers should explain why they made that choice.</p>                    </div>                </div>                </div>            
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Generative Redress</h5>                    <p class="expandable_body">If the system creates harmful or inappropriate output, there are ways to address the problem.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 7-04</small>                        <small class="text-muted">Redress</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>The generative system could offer redress mechanisms when it fails to meet responsible expectations (e.g. producing offensive content or plagiarizing training material). This could include compensation, direct corrections through feedback, legal support, and other accountability measures for users, artists, and stakeholders.</p>                        <p>This is about having a plan for when things go wrong.  If the AI generates offensive content, plagiarizes music, or causes other harm, there should be a way for users to report the problem and for the developers to take action.  This might involve removing the offending content, compensating affected parties, or improving the AI to prevent similar issues in the future.</p>                    </div>                </div>                </div>            
+</section><div class="section-divider mb-0"></div>
+        <!-- Call to Action Section -->
+        <section id="action" class="container my-4">
+            <h2>Call for action</h2>
+
+            <div class="alert alert-info" role="alert">
+              Interested in learning more about the <em>Responsible AI Music (RAIM)</em> initiative? Check out our <a href="">position paper</a> and and get involved!
+            </div>
+
+            <h4>How to get involved</h4>
+
+            <p>We actively seek insights and views from AI researchers, ethicists, legal experts, and music professionals to ensure continuous refinement and responsible expansion of generative AI technologies in the music industry. We warmly welcome policymakers, music industry stakeholders, and civil society organizations to join us in this crucial dialogue. Your voice is invaluable in shaping the ongoing discourse surrounding the broader implications of generative AI for all creative industries.
+            There are different avenues to contribute to the initiative. Here are some suggestions:
+            </p>
+
+            <div class="card bg-light mb-3">
+              <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h5 class="card-title">Suggest more features for this pillar!</h5>
+                  <p class="card-text">We would love to hear your suggestions for features for responsible AI in music!</p>
+                  <a href="mailto:amlab@liverpool.ac.uk?subject=RAIM%20Initiative:%20Interest%20in%20taking%20part%20to%20this%20study&body=Hello,%0A%0AI%20am%20sharing%20my%20interest%20in%20taking%20part%20to%20this%20study.%20Please,%20contact%20me%20when%20the%20study%20starts." class="btn btn-primary">Register Your Interest</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img class="card-img" src="assets/study.jpg">
+              </div>
+              </div>
+            </div>
+
+            <div class="card bg-light mb-3">
+              <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h5 class="card-title">Contribute to the RAIM framework & join our study</h5>
+                  <p class="card-text">We are building a network of experts who can provide advice and support on responsible AI music. This could involve participating in online forums, or attending our events. Share your insights and experiences, and help inform the next generation of AI Music systems. We are <u>soon launching a study</u> to assess the importance of each feature relative to each stakeholder group, leading to the definition of the framework. To register your interest in participating, please click the button below to send us an email. We will contact you with further details once the study commences and all protocols are in place.</p>
+                  <a href="mailto:amlab@liverpool.ac.uk?subject=RAIM%20Initiative:%20Interest%20in%20taking%20part%20to%20this%20study&body=Hello,%0A%0AI%20am%20sharing%20my%20interest%20in%20taking%20part%20to%20this%20study.%20Please,%20contact%20me%20when%20the%20study%20starts." class="btn btn-primary">Register Your Interest</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img class="card-img" src="assets/study.jpg">
+              </div>
+              </div>
+            </div>
+
+            <div class="card bg-light mb-3">
+              <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                <h5 class="card-title">Reach out and collaborate with us</h5>
+                <p class="card-text">If you are interested in working with us, please get in touch! We are actively seeking collaborations to drive the implementation of the RAIM framework. Join us in promoting the next generation of AI music systems that prioritise ethical considerations and adhere to responsible features. Let's work together to establish benchmarks, develop databases and tools, and explore innovative solutions for RAIM.</p>
+                <a href="mailto:amlab@liverpool.ac.uk" class="btn btn-secondary get-involved-btn">Reach Out</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img class="card-img" src="assets/reach_out.jpg">
+              </div>
+              </div>
+            </div>
+
+            <div class="card bg-light mb-3">
+              <div class="card-body text-left">
+                <h5 class="card-title">Share the initiative</h5>
+                <p class="card-text">Help us spread the word about the RAIM Initiative. Become an advocate and raise awareness about the potential of generative AI in music and the importance of responsible innovation. Share our website and social media channels with your network, or writing about us in your publications.</p>
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style get-involved-btn" data-a2a-title="Responsible AI Music Initiative (RAIM)" data-a2a-url="https://amlab.github.io/raim-initiative">
+                  <a class="a2a_button_facebook"></a>
+                  <a class="a2a_button_x"></a>
+                  <a class="a2a_button_mastodon"></a>
+                  <a class="a2a_button_email"></a>
+                  <a class="a2a_button_linkedin"></a>
+                </div>
+              </div>
+            </div>
+
+          <br>
+          <blockquote class="blockquote">
+            <p class="mb-0">Together, we aim to foster a vibrant and inclusive ecosystem where generative AI empowers musicians and enriches the musical landscape for everyone.</p>
+          </blockquote>
+
+          </section>
+    </main>
+
+    <footer class="text-muted py-4">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+              <p>Responsible AI Music, An Open Initiative © 2024</p>
+              <p><i>*All images in this page are taken from Unsplash.</i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+      var pillarNum = 1;
+    </script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/libs/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

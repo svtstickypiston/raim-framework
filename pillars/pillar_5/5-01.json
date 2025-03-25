@@ -1,0 +1,12 @@
+{
+    "id": 31,
+    "feature_num": "01",
+    "feature_name": "Music Corpus Statistics",
+    "pillar_id": 5,
+    "pillar": "Diversity, Non-discrimination and Fairness",
+    "facet": "Avoidance of unfair bias",
+    "feature_brief": "The system provides information about the types of music used to train it (genres, styles, time periods, etc.).",
+    "feature_summary": "Users might want to know statistics like the genre and period of music used for training, as this can reveal potential biases in the AI model. Before using the system, users could be allowed to access training data statistics to understand the type of music the AI is likely to generate to encourage transparency and informed use.",
+    "feature_use_case": "This is about understanding the AI's \"musical background.\"  If the AI was only trained on Western classical music, it's likely to struggle with generating other genres, like hip-hop or traditional folk music.  Providing statistics about the training data helps users understand the AI's potential biases and limitations. It promotes transparency about the diversity (or lack thereof) in the AI's musical knowledge.",
+    "feature_long": "AI models are shaped by the data they're trained on. This feature requires transparency about the *composition* of the training dataset. It means providing statistics about the music used for training, breaking it down by genre, style, historical period, geographic origin, and potentially other relevant factors (e.g., instrumentation, gender of the composer). This is crucial for identifying potential biases. For example, if the training data is overwhelmingly Western classical music, the system is likely to perform poorly when generating other genres, and its output may reflect the biases inherent in that specific musical tradition. This transparency allows users and researchers to understand the potential limitations and biases of the system."
+}

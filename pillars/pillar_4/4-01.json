@@ -1,0 +1,12 @@
+{
+    "id": 22,
+    "feature_num": "01",
+    "feature_name": "System Documentation",
+    "pillar_id": 4,
+    "pillar": "Transparency",
+    "facet": "Traceability",
+    "feature_brief": "The AI system's design and development process are clearly documented.",
+    "feature_summary": "Proper documentation is may be useful for transparency, promoting honesty and providing a clear view of the project’s development. Documentation would follow established guidelines, such as including datasheets for each dataset to detail sources and other key characteristics.",
+    "feature_use_case": "This is like having a detailed manual for the AI.  The documentation should explain how the AI works, how it was trained, and how to use it.  This is important for transparency and for allowing others to understand and potentially improve upon the system.",
+    "feature_long": "Comprehensive documentation is crucial for understanding, replicating, and building upon any complex system. This feature ensures that every stage of the AI's development - from its initial design to how it was trained and how it generates music - is thoroughly documented. This documentation should be clear, detailed, and accessible, allowing others to understand how the system works and potentially recreate it. It is a cornerstone of scientific best practice."
+}
