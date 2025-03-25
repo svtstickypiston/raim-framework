@@ -1,0 +1,8 @@
+{
+    "pillar_id": 3,
+    "name": "Privacy and Data Governance",
+    "tagline": "Protecting user privacy, and adhering to data governance regulations",
+    "brief": "Central to the goal of preventing unintended harm and achieving trust with users, data governance must encompass the quality and integrity of the data utilises, its pertinence within the intended domain of AI deployment, strict access protocols, and mechanisms to safeguard privacy.",
+    "description": "The focus of this requirement is on responsible data handling throughout the lifecycle of a generative music AI. This includes protecting user privacy by preventing data misuse and discrimination, implementing data access protocols, and ensuring the quality and integrity of training data, particularly music metadata. It also necessitates addressing copyright and licensing issues by documenting data sources, complying with relevant regulations, and providing clear information on the copyright of generated outputs",
+    "imagepath": "/header_3.jpg"
+}

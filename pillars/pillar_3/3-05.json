@@ -1,0 +1,12 @@
+{
+    "id": 20,
+    "feature_num": "05",
+    "feature_name": "Generative Reuse of Music Data",
+    "pillar_id": 3,
+    "pillar": "Privacy and Data Governance",
+    "facet": "Copyright & Licensing",
+    "feature_brief": "The AI only uses music that it has permission to use for training.",
+    "feature_summary": "To avoid conflicts, the system could use only music explicitly permitted for training - as music generation relies on human-created training data. While this may limit the volume of training material, it helps provide a more ethical and considerate approach toward creators.",
+    "feature_use_case": "This is a fundamental requirement for ethical AI music generation.  The AI should only be trained on music that is either in the public domain (meaning it's no longer under copyright) or that has been explicitly licensed for this purpose. This respects the rights of human artists and avoids legal problems.",
+    "feature_long": "This is a crucial copyright consideration. The AI learns by analysing existing music. This feature ensures that the music used for training is legally obtained and that its copyright terms *specifically permit* its use for training AI models. This avoids infringing on the rights of artists and copyright holders. It means the developers have done their due diligence to ensure they're not using music without permission."
+}

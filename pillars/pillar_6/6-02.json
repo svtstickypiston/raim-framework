@@ -1,0 +1,12 @@
+{
+    "id": 37,
+    "feature_num": "02",
+    "feature_name": "Generation Footprint",
+    "pillar_id": 6,
+    "pillar": "Societal and Environmental Well-being",
+    "facet": "Sustainable and environmentally friendly AI",
+    "feature_brief": "The system provides an indication of the environmental impact of generating music.",
+    "feature_summary": "A responsible music generation system should inform users of the environmental cost of content generation by calculating and displaying the hardware, time, and energy used after each creation. This transparency helps users understand the impact of their AI usage and encourages mindful consumption.",
+    "feature_use_case": "Even after the AI is trained, generating music still requires energy. This feature is about providing some measure of that ongoing environmental cost. It might be a simple estimate of the energy used per song generated, or a more complex calculation that takes into account factors like the length and complexity of the music.",
+    "feature_long": "What is the environmental cost of generating a song? While training has a large upfront environmental cost, *using* the trained model (called 'inference') also consumes energy. This feature focuses on the environmental cost of *generating* music. Ideally, the system would provide an estimate of the energy used per generation, or perhaps per minute of generated music. This is often much lower than the training cost, but it can still be significant, especially if the system is used very frequently or at a large scale. This transparency encourages responsible use and motivates developers to optimise for energy efficiency during inference."
+}

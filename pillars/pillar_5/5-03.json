@@ -1,0 +1,12 @@
+{
+    "id": 33,
+    "feature_num": "03",
+    "feature_name": "Accessibility Assessment",
+    "pillar_id": 5,
+    "pillar": "Diversity, Non-discrimination and Fairness",
+    "facet": "Accessibility and universal design",
+    "feature_brief": "If the system claims to be accessible, it has been tested with the users it's designed for.",
+    "feature_summary": "An assessment could evaluate the accessibility of system by having users with diverse needs—such as different operating systems, languages, and impairments—test it. Their feedback and recommendations would then guide improvements, making the system more inclusive and user-friendly for everyone.",
+    "feature_use_case": "This is about making sure the accessibility features actually work.  It's not enough to just add some extra options; the system needs to be tested with people who have the specific needs those options are supposed to address.  This ensures that the system is truly usable and helpful for everyone.",
+    "feature_long": "It's not enough to simply *claim* a system is accessible. This feature means that any accessibility features have been rigorously tested with the people they are designed to help. This involves getting feedback from users with disabilities, observing how they interact with the system, and identifying any remaining barriers or usability issues. This user-centered approach ensures that the accessibility features are actually effective and meet the needs of their intended audience."
+}

@@ -1,0 +1,8 @@
+{
+    "pillar_id": 2,
+    "name": "Robustness & Safety",
+    "tagline": "Ensuring the reliability and security of the AI system",
+    "brief": "This requirement focuses on accuracy, reliability and reproducibility, resilience to attack, security, and fallback plans.",
+    "description": "This focuses on the reliability and security of generative music AI models and systems. Key features include a systematic evaluation of the model’s accuracy using diverse methods (music modelling, statistical comparisons, composition evaluation, and listening tests), ensuring reproducibility through the availability of models, code, and training data, and protecting against attacks that could leak copyrighted material or compromise the system’s integrity once deployed.",
+    "imagepath": "/header_2.jpg"
+}

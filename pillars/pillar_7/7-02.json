@@ -1,0 +1,12 @@
+{
+    "id": 43,
+    "feature_num": "02",
+    "feature_name": "Impact Assessment",
+    "pillar_id": 7,
+    "pillar": "Accountability",
+    "facet": "Minimisation of negative impacts",
+    "feature_brief": "Potential negative impacts of the system were identified and addressed before it was released.",
+    "feature_summary": "To ensure responsibility, potential negative impacts of the system might be investigated, minimized, and openly communicated. Risk assessments involving stakeholders and protecting whistleblowers are crucial, especially when responsible features can’t be fully implemented. Methods like \"red-teaming\" (similar to cybersecurity penetration testing) or questionnaires can help identify and address these risks.",
+    "feature_use_case": "This means the developers didn't just focus on the positive aspects of the AI.  They also thought carefully about potential harms, such as job displacement, bias, or misuse, and took steps to minimize those risks. This demonstrates a proactive approach to responsible development.",
+    "feature_long": "It is important for the responsibility of a system that potential negative impacts of the system have been investigated. These should also be assessed, minimised and communicated openly while conducting risk assessments with the involved stakeholders and protecting those who may raise concerns. This particularly applies when the generative system cannot accommodate one or more responsible features, and can be facilitated with 'red-teaming' (similar to a penetration test in cybersecurity) or with questionnaires."
+}

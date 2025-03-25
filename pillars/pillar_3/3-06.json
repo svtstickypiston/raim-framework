@@ -1,0 +1,12 @@
+{
+    "id": 21,
+    "feature_num": "06",
+    "feature_name": "Copyright & Licensing of Generations",
+    "pillar_id": 3,
+    "pillar": "Privacy and Data Governance",
+    "facet": "Copyright & Licensing",
+    "feature_brief": "The system provides clear information about the copyright status of the music it generates.",
+    "feature_summary": "Users may need to understand the legal standing of AI-generated content to avoid misuse and potential legal issues. If the system holds copyright over generated music, this would be clearly communicated to the user to ensure proper usage and compliance.",
+    "feature_use_case": "This is about being upfront about who owns the music the AI creates.  The system should tell you whether the generated music is copyrighted by the AI developers, by you (the user), or whether it's in the public domain.  It should also explain any restrictions on how you can use the music (e.g., can you use it commercially?).",
+    "feature_long": "This addresses the complex issue of ownership of the music *created* by the AI. The system should provide clear information about: (1) Who owns the copyright to the generated music (it might be you, the developers, or a combination). (2) What you are allowed to do with the music (can you use it commercially, share it, modify it?). (3) Any limitations or restrictions on its use. This mechanism helps you avoid legal problems and understand your rights and responsibilities when using the AI-generated music."
+}
