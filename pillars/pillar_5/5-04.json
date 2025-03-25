@@ -1,0 +1,12 @@
+{
+    "id": 34,
+    "feature_num": "04",
+    "feature_name": "Accessibility Awareness",
+    "pillar_id": 5,
+    "pillar": "Diversity, Non-discrimination and Fairness",
+    "facet": "Accessibility and universal design",
+    "feature_brief": "The system clearly states if it has limitations in terms of who can use it.",
+    "feature_summary": "To prevent negative experiences, the system could warn users who might face difficulties, such as visually impaired individuals, at the start. A message could inform them that they may need their own accessibility tools to fully use the system, ensuring they are aware and prepared.",
+    "feature_use_case": "This is about being honest and upfront about any accessibility gaps.  If the system is not suitable for users with certain disabilities, it should clearly state that. This prevents frustration and helps users find tools that are appropriate for their needs.",
+    "feature_long": "Even with the best efforts, a system might not be fully accessible to everyone. This feature emphasises transparency about any known limitations. For example, the system might state that it's not suitable for users who are profoundly deaf, or that certain features require visual interaction. This honesty allows potential users to make informed decisions about whether the system is appropriate for their needs, avoiding frustration and disappointment."
+}

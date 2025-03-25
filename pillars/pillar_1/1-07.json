@@ -1,0 +1,12 @@
+{
+    "id": 7,
+    "feature_num": "07",
+    "feature_name": "Artist Involvement",
+    "pillar_id": 1,
+    "pillar": "Human Agency and Oversight",
+    "facet": "Oversight",
+    "feature_brief": "Real musicians were actively involved in designing and developing the AI system.",
+    "feature_summary": "Artists' perspectives may be useful in AI music development, as they are most impacted by AI-generated music. Their insights can address ethical concerns and provide valuable input that computer scientists might overlook, ensuring the system meets ethical standards and practical needs.",
+    "feature_use_case": "This means the AI wasn't just built by computer scientists in isolation.  Professional musicians were consulted and involved throughout the process, providing their expertise on what makes music good, what musicians need, and how AI can best support human creativity. This is important for ensuring the AI is actually useful and relevant to the music community, and that it's designed in a way that respects artistic values.",
+    "feature_long": "This feature emphasises the importance of human expertise in shaping AI tools for music. It means that the system wasn't just created by programmers in isolation; musicians, composers, and other creative professionals were actively involved in the design and development process. This is a form of Human-on-the-Loop (HOTL) approach. Their input helps ensure that the system is actually useful and relevant to artists, that it meets their needs, and that it aligns with artistic values. This collaboration helps to avoid creating a tool that's technically impressive but artistically irrelevant or even harmful to the creative process. It bridges the gap between technology and art."
+}

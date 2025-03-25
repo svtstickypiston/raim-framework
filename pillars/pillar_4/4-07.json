@@ -1,0 +1,12 @@
+{
+    "id": 28,
+    "feature_num": "07",
+    "feature_name": "Benefits",
+    "pillar_id": 4,
+    "pillar": "Transparency",
+    "facet": "Communication",
+    "feature_brief": "The system clearly explains the advantages of using it compared to other music creation tools.",
+    "feature_summary": "To promote informed use, users could be shown an information screen before using the system, highlighting its technical and ethical benefits. This educates users on the system’s advantages, encouraging knowledgeable engagement with AI music generation tools.",
+    "feature_use_case": "This is about being upfront about what the AI can do *better* than other methods. It might be faster, cheaper, easier to use, or able to generate music in styles that are difficult for humans to create. This helps users understand why they might want to use the AI in the first place.",
+    "feature_long": "Before users start using the system, they should be informed about what it can do *better* than other existing tools or methods. This helps manage expectations and ensures that users choose the right tool for their needs. For example, the system might be particularly good at generating variations on a melody, or at creating music in a specific style. This upfront communication avoids disappointment and helps users make informed choices."
+}

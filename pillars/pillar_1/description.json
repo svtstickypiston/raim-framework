@@ -1,0 +1,8 @@
+{
+    "pillar_id": 1,
+    "name": "Human Agency and Oversight",
+    "tagline": "Empowering humans to understand and control the AI system, ensuring it aligns with human values and preferences",
+    "brief": "Central to the design of trustworthy systems is the capacity of individuals to understand and meaningfully influence the actions of AI systems (<em>human agency</em>) while monitoring and interacting their behaviour to operate responsibly and align with human values and preferences (<em>human oversight</em>).",
+    "description": "This requirement ensures that users maintain control over AI systems and their outputs. This translates to features that support user understanding of the system’s capabilities and limitations, offer control over the generative process (e.g., through interactive feedback and multi-modal conditioning), and prioritise user safety by providing safeguards against potentially harmful or inappropriate musical outputs.",
+    "imagepath": "/header_1.jpg"
+}

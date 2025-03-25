@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAIM Initiative</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">RAIM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="dropdown">
+                        <button class="nav-link dropbtn">Pillars</button>
+                        <div class="dropdown-content">
+                          <a href="./pillars-1.html">Pillar 1</a>
+                          <a href="./pillars-2.html">Pillar 2</a>
+                          <a href="./pillars-3.html">Pillar 3</a>
+                          <a href="./pillars-4.html">Pillar 4</a>
+                          <a href="./pillars-5.html">Pillar 5</a>
+                          <a href="./pillars-6.html">Pillar 6</a>
+                          <a href="./pillars-7.html">Pillar 7</a>
+                        </div>
+                      </div>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <main role="main">
+        <!-- Hero Section -->
+        <section id="hero" class="jumbotron">
+            <div id="title-wrapper" class="container">
+            <div id="title">
+                <h1 class="display-4 text-body-emphasis">Privacy and Data Governance</h1>
+                <p class="lead">Protecting user privacy, and adhering to data governance regulations</p>
+            </div>
+            </div>
+        </section>
+        <!-- Features Section -->
+        <section id="features" class="container my-4">
+          <h2>Background Information</h2>
+          <!-- Write about background information -->
+            <p>Central to the goal of preventing unintended harm and achieving trust with users, data governance must encompass the quality and integrity of the data utilises, its pertinence within the intended domain of AI deployment, strict access protocols, and mechanisms to safeguard privacy.</p>
+            <p>The focus of this requirement is on responsible data handling throughout the lifecycle of a generative music AI. This includes protecting user privacy by preventing data misuse and discrimination, implementing data access protocols, and ensuring the quality and integrity of training data, particularly music metadata. It also necessitates addressing copyright and licensing issues by documenting data sources, complying with relevant regulations, and providing clear information on the copyright of generated outputs</p>
+        </section>
+        <div class="section-divider"></div>
+        <pre id="output"></pre>
+        <!-- Start Card Group -->
+        <section class="container my-4">
+          <img class="card-img-top" src="assets/header_3.jpg">          <h3>Features for Pillar 3: Privacy and Data Governance</h3>
+        <div class="expandable_section">
+    
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Prompt Leakage</h5>                    <p class="expandable_body">The AI system doesn't share or reveal the prompts (instructions) that users give it.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 3-01</small>                        <small class="text-muted">Privacy</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>To prevent leaks of sensitive data, the system could delete user prompts shortly after use and screen both inputs and outputs for personal information. This minimizes the risk of sensitive data being exposed in the AI-generated content.</p>                        <p>This is about protecting your privacy.  The prompts you give the AI might contain personal information, creative ideas, or other sensitive data.  This feature ensures that this information is kept confidential and not shared with others without your consent. It's like keeping your diary private.</p>                    </div>                </div>                </div>            
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Training Metadata Integrity</h5>                    <p class="expandable_body">The system checks and communicates if the music it was trained on has correct information about its creators and copyright.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 3-02</small>                        <small class="text-muted">Data quality</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>To avoid copyright violations from misattributed training data, the system could store copyright information and warn users of potential issues before they use it. This prepares them for the possibility of copyright concerns related to the generated music.</p>                        <p>Metadata is like the "label" on a piece of music, providing information like the artist, composer, album, and copyright holder. This feature means the AI system verifies that this information is accurate for the music it uses for training. It should also let you know if it finds errors or incomplete metadata. This is crucial for ensuring that artists are properly credited and that copyright is respected.</p>                    </div>                </div>                </div>            
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Safety of Training Data</h5>                    <p class="expandable_body">The system warns users if it was trained on music that might be considered offensive or harmful.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 3-03</small>                        <small class="text-muted">Data quality</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>To prevent offensive outputs, the system could check training data for harmful content before generation. If detected, it would warn the user, ensuring they are aware of potential risks and can proceed with caution.</p>                        <p>This is about transparency and informed consent.  If the AI was trained on music with offensive lyrics, violent themes, or other potentially problematic content, the system should let you know.  This allows you to make an informed decision about whether you want to use the system and what kind of output you might expect.</p>                    </div>                </div>                </div>            
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Prompt Governance</h5>                    <p class="expandable_body">If the AI system stores user data, access to that data is strictly controlled.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 3-04</small>                        <small class="text-muted">Access to data</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>If user data is stored for future use (e.g., evaluations), access might be tightly regulated with clear protocols specifying who can access it and under what conditions. This is could be useful to address privacy concerns if the data includes personal information.</p>                        <p>This goes beyond just keeping prompts private.  It means that if the AI system stores *any* data related to your interactions (e.g., your feedback, the music you generate), there are clear rules about who can access that data and under what circumstances.  This protects your privacy and ensures that your data isn't misused.</p>                    </div>                </div>                </div>            
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Generative Reuse of Music Data</h5>                    <p class="expandable_body">The AI only uses music that it has permission to use for training.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 3-05</small>                        <small class="text-muted">Copyright & Licensing</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>To avoid conflicts, the system could use only music explicitly permitted for training - as music generation relies on human-created training data. While this may limit the volume of training material, it helps provide a more ethical and considerate approach toward creators.</p>                        <p>This is a fundamental requirement for ethical AI music generation.  The AI should only be trained on music that is either in the public domain (meaning it's no longer under copyright) or that has been explicitly licensed for this purpose. This respects the rights of human artists and avoids legal problems.</p>                    </div>                </div>                </div>            
+                <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Copyright & Licensing of Generations</h5>                    <p class="expandable_body">The system provides clear information about the copyright status of the music it generates.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 3-06</small>                        <small class="text-muted">Copyright & Licensing</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>Users may need to understand the legal standing of AI-generated content to avoid misuse and potential legal issues. If the system holds copyright over generated music, this would be clearly communicated to the user to ensure proper usage and compliance.</p>                        <p>This is about being upfront about who owns the music the AI creates.  The system should tell you whether the generated music is copyrighted by the AI developers, by you (the user), or whether it's in the public domain.  It should also explain any restrictions on how you can use the music (e.g., can you use it commercially?).</p>                    </div>                </div>                </div>            
+</section><div class="section-divider mb-0"></div>
+        <!-- Call to Action Section -->
+        <section id="action" class="container my-4">
+            <h2>Call for action</h2>
+
+            <div class="alert alert-info" role="alert">
+              Interested in learning more about the <em>Responsible AI Music (RAIM)</em> initiative? Check out our <a href="">position paper</a> and and get involved!
+            </div>
+
+            <h4>How to get involved</h4>
+
+            <p>We actively seek insights and views from AI researchers, ethicists, legal experts, and music professionals to ensure continuous refinement and responsible expansion of generative AI technologies in the music industry. We warmly welcome policymakers, music industry stakeholders, and civil society organizations to join us in this crucial dialogue. Your voice is invaluable in shaping the ongoing discourse surrounding the broader implications of generative AI for all creative industries.
+            There are different avenues to contribute to the initiative. Here are some suggestions:
+            </p>
+
+            <div class="card bg-light mb-3">
+              <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h5 class="card-title">Suggest more features for this pillar!</h5>
+                  <p class="card-text">We would love to hear your suggestions for features for responsible AI in music!</p>
+                  <a href="mailto:amlab@liverpool.ac.uk?subject=RAIM%20Initiative:%20Interest%20in%20taking%20part%20to%20this%20study&body=Hello,%0A%0AI%20am%20sharing%20my%20interest%20in%20taking%20part%20to%20this%20study.%20Please,%20contact%20me%20when%20the%20study%20starts." class="btn btn-primary">Register Your Interest</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img class="card-img" src="assets/study.jpg">
+              </div>
+              </div>
+            </div>
+
+            <div class="card bg-light mb-3">
+              <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                  <h5 class="card-title">Contribute to the RAIM framework & join our study</h5>
+                  <p class="card-text">We are building a network of experts who can provide advice and support on responsible AI music. This could involve participating in online forums, or attending our events. Share your insights and experiences, and help inform the next generation of AI Music systems. We are <u>soon launching a study</u> to assess the importance of each feature relative to each stakeholder group, leading to the definition of the framework. To register your interest in participating, please click the button below to send us an email. We will contact you with further details once the study commences and all protocols are in place.</p>
+                  <a href="mailto:amlab@liverpool.ac.uk?subject=RAIM%20Initiative:%20Interest%20in%20taking%20part%20to%20this%20study&body=Hello,%0A%0AI%20am%20sharing%20my%20interest%20in%20taking%20part%20to%20this%20study.%20Please,%20contact%20me%20when%20the%20study%20starts." class="btn btn-primary">Register Your Interest</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img class="card-img" src="assets/study.jpg">
+              </div>
+              </div>
+            </div>
+
+            <div class="card bg-light mb-3">
+              <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body text-left">
+                <h5 class="card-title">Reach out and collaborate with us</h5>
+                <p class="card-text">If you are interested in working with us, please get in touch! We are actively seeking collaborations to drive the implementation of the RAIM framework. Join us in promoting the next generation of AI music systems that prioritise ethical considerations and adhere to responsible features. Let's work together to establish benchmarks, develop databases and tools, and explore innovative solutions for RAIM.</p>
+                <a href="mailto:amlab@liverpool.ac.uk" class="btn btn-secondary get-involved-btn">Reach Out</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img class="card-img" src="assets/reach_out.jpg">
+              </div>
+              </div>
+            </div>
+
+            <div class="card bg-light mb-3">
+              <div class="card-body text-left">
+                <h5 class="card-title">Share the initiative</h5>
+                <p class="card-text">Help us spread the word about the RAIM Initiative. Become an advocate and raise awareness about the potential of generative AI in music and the importance of responsible innovation. Share our website and social media channels with your network, or writing about us in your publications.</p>
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style get-involved-btn" data-a2a-title="Responsible AI Music Initiative (RAIM)" data-a2a-url="https://amlab.github.io/raim-initiative">
+                  <a class="a2a_button_facebook"></a>
+                  <a class="a2a_button_x"></a>
+                  <a class="a2a_button_mastodon"></a>
+                  <a class="a2a_button_email"></a>
+                  <a class="a2a_button_linkedin"></a>
+                </div>
+              </div>
+            </div>
+
+          <br>
+          <blockquote class="blockquote">
+            <p class="mb-0">Together, we aim to foster a vibrant and inclusive ecosystem where generative AI empowers musicians and enriches the musical landscape for everyone.</p>
+          </blockquote>
+
+          </section>
+    </main>
+
+    <footer class="text-muted py-4">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+              <p>Responsible AI Music, An Open Initiative © 2024</p>
+              <p><i>*All images in this page are taken from Unsplash.</i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+      var pillarNum = 1;
+    </script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/libs/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

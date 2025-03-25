@@ -1,0 +1,12 @@
+{
+    "id": 44,
+    "feature_num": "03",
+    "feature_name": "Responsible Statement",
+    "pillar_id": 7,
+    "pillar": "Accountability",
+    "facet": "Trade-off",
+    "feature_brief": "If the system doesn't fully meet all responsible AI requirements, the reasons are clearly explained.",
+    "feature_summary": "Some features in a generative system may require trade-offs, such as sacrificing explainability for highly realistic music generation or incurring high computational costs. These trade-offs should prioritize minimizing risks to ethical principles. If no ethical balance can be achieved, the development or use of the model should be reconsidered.",
+    "feature_use_case": "This is about transparency and honesty.  It's not always possible to create a perfect AI system that meets every single ethical requirement.  This feature means that if there are any trade-offs or compromises, they are clearly documented and justified.  For example, a system might be very accurate but not very explainable.  The developers should explain why they made that choice.",
+    "feature_long": "It's not always possible to achieve *all* desirable ethical features in a system. There may be technical limitations, conflicting requirements, or other constraints. This feature requires that any such compromises or 'trade-offs' are explicitly acknowledged and justified. For example, if full training data transparency is impossible due to copyright restrictions, this should be stated, along with the reasons why. The justification should demonstrate that the chosen trade-offs prioritise minimising ethical risks. This promotes honest and responsible decision-making in AI development."
+}
