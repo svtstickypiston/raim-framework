@@ -1,3 +1,5 @@
+<!-- Beginning of index.txt -->
+      
       <main role="main">
         <!-- Hero Section -->
         <section id="hero" class="jumbotron">
@@ -5,7 +7,6 @@
               <div id="title">
                 <h1 class="display-4 text-body-emphasis">Responsible AI Music</h1>
                 <p class="lead">Ensuring the Future of Music Creation aligns with Trustworthy AI Principles</p>
-                <!-- <a class="btn btn-primary btn-lg" href="#importance" role="button">Learn More</a> -->
               </div>
             </div>
         </section>
@@ -18,6 +19,9 @@
             <ul class="list-inline">
             <li class="list-inline-item mb-2">
               <a class="btn btn-outline-primary" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="list-inline-item mb-2">
+                <a class="btn btn-outline-primary" href="#importance" role="button">Learn More</a>
             </li>
             <li class="list-inline-item mb-2">
               <a class="btn btn-outline-primary" href="#tai">Background</a>
@@ -35,7 +39,7 @@
 
         <!-- Importance Section -->
         <section id="importance" class="container my-4">
-            <!-- <h2>Why It Matters</h2> -->
+            <h2>Why It Matters</h2>
             <blockquote class="blockquote">
               <p class="mb-0">Generative AI is radically changing the creative arts, transforming the way we create and interact with artworks.</p>
             </blockquote>
@@ -108,3 +112,5 @@
         </section>
 
         <div class="section-divider"></div>
+
+<!-- End of index.txt -->

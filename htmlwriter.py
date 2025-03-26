@@ -20,35 +20,42 @@ def createFooter (target):
 
 # creates the body for the index file
 def createIndex (target):
+
+    # write the initial part for the index page
     f = open("./index.txt")
-
     body = f.read()
-
     target.write(body)
     f.close()
 
+    # load the feature cards from JSON files
     for entry in os.scandir("./pillars"):  
-        if entry.is_dir():  # check if it's a folder
+        if entry.is_dir():  # check for folders
+            # navigate to the JSON folder for the pillar descriptions
             path = entry.path + "/description.json"
-            jf = open(path)
+            pillar_description = open(path)
 
-            data = json.load(jf)
+            # load data from JSON file
+            data = json.load(pillar_description)
             id = data['pillar_id']
             name = data['name']
             brief = data['brief']
             imgpath = data['imagepath']
 
-            html = '\
-            <section id="features-1" class="container my-4">\
-                <h3>Pillar '+str(id)+': '+name+'</h3>\
-                <p>'+brief+'</p>\
-                <div id="'+str(id)+'" class="card-deck">\
+            # begin the card deck for each pillar
+            html = '\n\
+            <!-- Card Deck -->\n\
+            <section id="features-1" class="container my-4">\n\
+                <h3>Pillar '+str(id)+': '+name+'</h3>\n\
+                <p>'+brief+'</p>\n\
+                <div id="'+str(id)+'" class="card-deck">\n\
             '
 
+            # load JSON data for individual features from the relevant pillar
             for entry in os.scandir(entry.path):  
                 if entry.is_file() and entry.path.endswith('description.json')==False:  # check if it's a file, and that it isn't the pillar description
                     card_file = open(entry.path)
 
+                    # load data from JSON file
                     card_data = json.load(card_file)
                     name = card_data['feature_name']
                     brief = card_data['feature_brief']
@@ -57,43 +64,47 @@ def createIndex (target):
                     facet = card_data['facet']
                     body = card_data['feature_long']
 
-                    html += '\
-                    <div class="card">\
-                        <img class="card-img-top" src="assets'+imgpath+'">\
-                        <div class="card-body">\
-                            <h5 class="card-title">'+name+'</h5>\
-                            <p class="card-text">'+brief+'</p>\
-                        </div>\
-                        <div class="card-footer d-flex w-100 justify-content-between">\
-                            <small class="text-muted">Feature '+pillarid+'-'+number+'</small>\
-                            <small class="text-muted">'+facet+'</small>\
-                        </div>\
-                    </div>\
-                    <div class="popup">\
-                        <div class="popup-content">\
-                            <span class="close-button">&times;</span>\
-                            <h2>'+name+'</h2>\
-                            <p>'+body+'</p>\
-                        </div>\
-                    </div>\
+                    # add each individual card based on JSON data
+                    html += '\n\
+                    <!-- Feature Card -->\n\
+                    <div class="card">\n\
+                        <img class="card-img-top" src="assets'+imgpath+'">\n\
+                        <div class="card-body">\n\
+                            <h5 class="card-title">'+name+'</h5>\n\
+                            <p class="card-text">'+brief+'</p>\n\
+                        </div>\n\
+                        <div class="card-footer d-flex w-100 justify-content-between">\n\
+                            <small class="text-muted">Feature '+pillarid+'-'+number+'</small>\n\
+                            <small class="text-muted">'+facet+'</small>\n\
+                        </div>\n\
+                    </div>\n\
+                    <div class="popup">\n\
+                        <div class="popup-content">\n\
+                            <span class="close-button">&times;</span>\n\
+                            <h2>'+name+'</h2>\n\
+                            <p>'+body+'</p>\n\
+                        </div>\n\
+                    </div>\n\
                     '
 
-            html += '\
-                </div>\
-            <!-- End Card Group -->\
-            </section>\
-            <div class="section-divider"></div>\
+            # end each card deck
+            html += '\n\
+                </div>\n\
+            <!-- End Card Deck -->\n\
+            </section>\n\
+            <div class="section-divider"></div>\n\
             '
 
             target.write(html+"\n")
-            jf.close()
+            pillar_description.close()
 
 # creates the features for the pillar pages
 def createFeatures (pillar, target):
-    directory = "./pillars/"+pillar
-    
-    descriptions = open(directory+'/description.json')
+    # navigate to the JSON folder for the pillar descriptions
+    dir = "./pillars/"+pillar
+    descriptions = open(dir+'/description.json')
 
+    # load data from JSON file
     pillardata = json.load(descriptions)
     id = pillardata['pillar_id']
     name = pillardata['name']
@@ -102,7 +113,9 @@ def createFeatures (pillar, target):
     body = pillardata['description']
     # imgpath = pillardata['imagepath']
 
+    # writes the introduction to each pillar
     html_1 = '\n\
+        <!-- Pillar introduction -->\n\
         <main role="main">\n\
         <!-- Hero Section -->\n\
         <section id="hero" class="jumbotron">\n\
@@ -130,13 +143,14 @@ def createFeatures (pillar, target):
 
     target.write(html_1+"\n")
 
-    for entry in os.scandir(directory):  
+    # gets data from the features for that pillar
+    for entry in os.scandir(dir):  
         if entry.is_file()  and entry.path.endswith('description.json')==False:  # check if it's a file
             f = open(entry.path)
             print(entry.path)
 
+            # load data from JSON file
             data = json.load(f)
-
             name = data['feature_name']
             brief = data['feature_brief']
             pillarid = str(data['pillar_id'])
@@ -145,54 +159,64 @@ def createFeatures (pillar, target):
             usecase = data['feature_use_case']
             summary = data['feature_summary']
 
-            html_2 = '\
-                <div class="expandable_card_wrapper">\
-                <div class="expandable_card">\
-                    <div class = "expandable_icon">\
-                        <ion-icon name="chevron-down-outline"></ion-icon>\
-                    </div>\
-                    <h5 class="expandable_title">'+name+'</h5>\
-                    <p class="expandable_body">'+brief+'</p>\
-                    <div class="expandable_footer">\
-                        <small class="text-muted">Feature '+pillarid+'-'+number+'</small>\
-                        <small class="text-muted">'+facet+'</small>\
-                    </div>\
-                </div>\
-                <div class="expandable_content_wrapper">\
-                    <div class="expandable_content">\
-                        <p>'+summary+'</p>\
-                        <p>'+usecase+'</p>\
-                    </div>\
-                </div>\
-                </div>\
+            # creates an expandable section for each feature
+            html_2 = '\n\
+                <!-- Expandable section -->\n\
+                <div class="expandable_card_wrapper">\n\
+                <div class="expandable_card">\n\
+                    <div class = "expandable_icon">\n\
+                        <ion-icon name="chevron-down-outline"></ion-icon>\n\
+                    </div>\n\
+                    <h5 class="expandable_title">'+name+'</h5>\n\
+                    <p class="expandable_body">'+brief+'</p>\n\
+                    <div class="expandable_footer">\n\
+                        <small class="text-muted">Feature '+pillarid+'-'+number+'</small>\n\
+                        <small class="text-muted">'+facet+'</small>\n\
+                    </div>\n\
+                </div>\n\
+                <div class="expandable_content_wrapper">\n\
+                    <div class="expandable_content">\n\
+                        <p>'+summary+'</p>\n\
+                        <p>'+usecase+'</p>\n\
+                    </div>\n\
+                </div>\n\
+                </div>\n\
             '
 
             target.write(html_2+"\n")
 
+    # finish the section
     target.write('</section><div class="section-divider mb-0"></div>\n')
     f.close()
 
+# main function that runs everything else
 def createWebsite():
     dir = '.'
 
+    # open and clear the index.html file
     index = open(dir+'/index.html', 'a')
     index.truncate(0)
 
+    # create a new index.html file
     createHeader(index)
     createIndex(index)
     createFooter(index)
 
     index.close()
     
+    # for every pillars-x.html file, it opens and clears it, before creating a new one from the JSON data in the relevant file directory
     for entry in os.scandir(dir):  
         if entry.is_file() and re.search('pillars-[0-9].html', entry.path)!=None:  # look for pillar files
+            # open and clear the pillars-x.html file
             f = open(entry.path, 'a')
             f.truncate(0)
 
+            # get the correct folder for each pillars-x.html file
             templist = re.findall('[0-9]', entry.path)
             pillarnum = templist[len(templist)-1]
             pillar = 'pillar_'+pillarnum
     
+            # create a new pillars-x.html file
             createHeader(f)
             createFeatures(pillar, f)
             createFooter(f)
