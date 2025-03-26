@@ -1,0 +1,12 @@
+{
+    "id": 9,
+    "feature_num": "02",
+    "feature_name": "Generation Fallback",
+    "pillar_id": 2,
+    "pillar": "Robustness and Safety",
+    "facet": "Fallback plan",
+    "feature_brief": "If the AI starts generating inappropriate music, it can switch to a safer, simpler mode.",
+    "feature_summary": "If the output is unsatisfactory or offensive, this feature allows the system to switch to a secondary generative strategy which uses pre-written rules to avoid unsafe content - though it may produce lower-quality music compared to the primary approach. This helps minimize negative impacts on users.",
+    "feature_use_case": "This is a backup plan in case the main AI system starts producing something undesirable.  If the AI detects that its output is becoming offensive, repetitive, or otherwise problematic, it can automatically switch to a more basic, rule-based system that is guaranteed to produce safe, if less creative, music.  This ensures that the system always provides a reasonable output, even if it can't always be perfect.",
+    "feature_long": "This is a safety net for continuous music generation. Imagine the AI is providing background music, and suddenly it starts producing something inappropriate. This feature means the system can automatically switch to a safer, more predictable mode of generation. This 'rule-based mode' might be less sophisticated, perhaps playing pre-programmed sequences or simple melodies, but it guarantees that the output remains appropriate while the issue with the main generative model is addressed. It's like having a backup DJ ready to step in if the main performer starts playing something unsuitable."
+}

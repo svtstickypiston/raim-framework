@@ -1,0 +1,12 @@
+{
+    "id": 38,
+    "feature_num": "03",
+    "feature_name": "Responsible Data Collection",
+    "pillar_id": 6,
+    "pillar": "Societal and Environmental Well-being",
+    "facet": "Social impact",
+    "feature_brief": "If the AI uses any data collected from people (e.g., annotations), that data was collected ethically and fairly.",
+    "feature_summary": "For responsible AI training, human involvement in tasks like annotation, data collection, and evaluation is often necessary. It may be important to ensure these contributors are treated ethically and fairly, including compensating annotators for their work, especially if crowdsourcing is used.",
+    "feature_use_case": "Sometimes, AI systems need human help to improve.  For example, people might be asked to label musical examples or provide feedback on AI-generated music. This feature ensures that those people were treated fairly, paid appropriately, and that their privacy was protected.",
+    "feature_long": "Many AI systems rely on human annotators to label data (e.g., tagging musical features, identifying emotions in music, or evaluating the quality of generated output). This feature addresses the ethical treatment of these workers. It means that: (1) The data collection process was conducted ethically, respecting privacy and obtaining informed consent. (2) Annotators were paid fairly for their work, avoiding exploitative practices common in some crowdsourcing platforms. (3) The process was documented, ensuring transparency and accountability. This promotes fair labour practices and ethical data sourcing in AI development."
+}
