@@ -173,7 +173,7 @@ def createFeatures (pillar, target):
     f.close()
 
 def createWebsite():
-    dir = './root'
+    dir = '.'
 
     index = open(dir+'/index.html', 'a')
     index.truncate(0)
