@@ -1,3 +1,5 @@
+<!-- Beginning of header.txt -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,3 +41,5 @@
             </div>
         </nav>
     </header>
+
+<!-- End of header.txt -->
