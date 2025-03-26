@@ -7,7 +7,7 @@ def createHeader (target):
     f = open("./header.txt")
     header = f.read()
 
-    target.write(header)
+    target.write(header + "<p>test!!!</p>")
     f.close()
 
 # creates all common content at the bottom of the page
