@@ -6,6 +6,7 @@
     <title>RAIM Initiative</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
 </head>
 <body>
     <header>
@@ -59,7 +60,7 @@
         <pre id="output"></pre>
         <!-- Start Card Group -->
         <section class="container my-4">
-          <img class="card-img-top" src="assets/header_7.jpg">          <h3>Features for Pillar 7: Accountability</h3>
+          <h3>Features for Pillar 7: Accountability</h3>
         <div class="expandable_section">
     
                 <div class="expandable_card_wrapper">                <div class="expandable_card">                    <div class = "expandable_icon">                        <ion-icon name="chevron-down-outline"></ion-icon>                    </div>                    <h5 class="expandable_title">Audit Access</h5>                    <p class="expandable_body">If the system is proprietary, independent auditors can access the model and training data to evaluate it.</p>                    <div class="expandable_footer">                        <small class="text-muted">Feature 7-01</small>                        <small class="text-muted">Auditability</small>                    </div>                </div>                <div class="expandable_content_wrapper">                    <div class="expandable_content">                        <p>It may be important for a proprietary generative system to ensure auditability, and allow internal and external auditors access upon request to assess its compliance with the previously defined responsible features. These audit reports could be publicly available.</p>                        <p>This is about allowing for independent checks and balances.  Even if the AI system is not open-source, trusted third parties should be able to examine it to ensure that it's meeting ethical and legal standards.  Their findings should be made public, providing an extra layer of accountability.</p>                    </div>                </div>                </div>            
@@ -83,16 +84,37 @@
 
             <div class="card bg-light mb-3">
               <div class="row no-gutters">
-              <div class="col-md-8">
-                <div class="card-body text-left">
-                  <h5 class="card-title">Suggest more features for this pillar!</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Suggest more features!</h5>
                   <p class="card-text">We would love to hear your suggestions for features for responsible AI in music!</p>
-                  <a href="mailto:amlab@liverpool.ac.uk?subject=RAIM%20Initiative:%20Interest%20in%20taking%20part%20to%20this%20study&body=Hello,%0A%0AI%20am%20sharing%20my%20interest%20in%20taking%20part%20to%20this%20study.%20Please,%20contact%20me%20when%20the%20study%20starts." class="btn btn-primary">Register Your Interest</a>
+                  <form action="mailto:tombrett1628@gmail.com?subject=RAIM%20Initiative:%20Suggested%20Feature"
+                  method="POST"
+                  enctype="text/plain"
+                  name="EmailForm">
+
+                    <div class="form">
+                    <label for="pillarnumber">Pillar Number (write a question mark if you aren't sure):</label><br>
+                    <input type="text" id="pillarnumber" name="Pillar Number"><br>
+                    </div>
+
+                    <div class="form">
+                    <label for="name">Feature Name:</label><br>
+                    <input type="text" id="name" name="Name"><br>
+                    </div>
+
+                    <div class="form">
+                    <label for="description">Feature Description:</label><br>
+                    <textarea id="description" name="Description" rows="3" cols="20"></textarea><br>
+                    </div>
+
+                    <div class="form">
+                    <label for="comment">Further comments:</label><br>
+                    <textarea id="comment" name="Comments" rows="3" cols="20"></textarea><br>
+                    </div>
+
+                    <input type="submit" value="Submit Feature" class="btn btn-secondary get-involved-btn">
+                  </form>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <img class="card-img" src="assets/study.jpg">
-              </div>
               </div>
             </div>
 
@@ -157,9 +179,6 @@
         </div>
     </footer>
 
-    <script>
-      var pillarNum = 1;
-    </script>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/libs/popper.min.js"></script>
